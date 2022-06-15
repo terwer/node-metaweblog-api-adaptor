@@ -16,7 +16,7 @@ export default function handler(req, res) {
     // console.log("reqParams=>", reqParams)
 
     if(reqParams.length < 3){
-        const error = "An error occured!Parameter is too low!See document at https://xmlrpc.terwergren.com/docs"
+        const error = "An error occurred!Parameter is too low!See document at https://xmlrpc.terwergreen.com/docs"
         const errorXml = Serializer.serializeFault(error)
         res.writeHead(200, {
             'Content-Length': Buffer.byteLength(errorXml),
