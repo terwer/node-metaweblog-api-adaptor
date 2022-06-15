@@ -4,7 +4,7 @@ import handleResponse from "./metaweblog-server"
 import API_CONSTANTS from "./constant";
 
 import Cors from 'cors'
-import initMiddleware from '../../lib/init-middleware'
+import initMiddleware from "../../../lib/init-middleware";
 
 // Initialize the cors middleware
 const cors = initMiddleware(
