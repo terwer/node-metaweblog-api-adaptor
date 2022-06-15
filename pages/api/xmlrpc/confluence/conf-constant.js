@@ -1,0 +1,8 @@
+const DEFAULT_SPACE_KEY = "spc"
+
+
+const CONF_API_CONSTANTS = {
+    DEFAULT_SPACE_KEY
+}
+
+export default CONF_API_CONSTANTS
