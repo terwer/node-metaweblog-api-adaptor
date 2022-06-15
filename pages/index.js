@@ -14,7 +14,10 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Welcome to <a href="/docs">xmlrpc</a>
+                    Welcome to
+                    <Link href="/docs">
+                        <a>xmlrpc</a>
+                    </Link>
                 </h1>
                 <p>api list</p>
 
