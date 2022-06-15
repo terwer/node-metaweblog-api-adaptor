@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
     return (
@@ -18,12 +19,13 @@ export default function Home() {
                 <p>api list</p>
 
                 <p>
-                    <a
-                        style={{color: "blue"}}
-                        href="/api/xmlrpc/getUsersBlogs"
-                        target="_blank">
-                        metaweblog.getUsersBlogs
-                    </a>
+                    <Link href="/api/xmlrpc/getUsersBlogs">
+                        <a
+                            style={{color: "blue"}}
+                            target="_blank">
+                            metaweblog.getUsersBlogs
+                        </a>
+                    </Link>
                 </p>
 
                 <div className={styles.grid}>

@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
     return (
         <div>
@@ -5,12 +7,13 @@ export default function Home() {
             <p>
                 This is docs for
                 &nbsp;
-                <a style={{color: "blue"}}
-                   rel="noreferrer"
-                   href="https://github.com/terwer/node-metaweblog-api-adaptor"
-                   target="_blank">
-                    node-metaweblog-api-adaptor
-                </a>
+                <Link href="https://github.com/terwer/node-metaweblog-api-adaptor">
+                    <a style={{color: "blue"}}
+                       rel="noreferrer"
+                       target="_blank">
+                        node-metaweblog-api-adaptor
+                    </a>
+                </Link>
             </p>
         </div>
     )
