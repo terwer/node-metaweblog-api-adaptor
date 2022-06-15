@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a xmlrpc metaweblog api server based on [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Endpoint
+
+[/api/xmlrpc](https://xmlrpc.terwergreen.com/api/xmlrpc)
 
 ## Getting Started
 
