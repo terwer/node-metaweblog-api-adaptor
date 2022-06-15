@@ -1,6 +1,8 @@
 var Serializer = require('../../node_modules/xmlrpc/lib/serializer'),
     Deserializer = require('../../node_modules/xmlrpc/lib/deserializer')
 
+// api list
+// https://github.com/fshost/xrpc/blob/master/example/app.js
 export default function handler(req, res) {
     // ===============
     // handle request
