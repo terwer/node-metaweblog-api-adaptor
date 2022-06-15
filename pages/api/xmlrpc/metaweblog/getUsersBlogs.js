@@ -1,4 +1,6 @@
 import API_CONSTANTS from "../constant";
+import CONF_API_CONSTANTS from "../confluence/conf-constant";
+import {getSpaces} from "../confluence/conf-rest-api";
 
 export default async function handleGetUsersBlogs(reqParams) {
     let error = null
@@ -11,17 +13,32 @@ export default async function handleGetUsersBlogs(reqParams) {
     console.log("username=>", username)
     console.log("password=>", password)
 
-    const userBlog = {
-        blogid: '131097',
-        url: 'https://www.cnblogs.com/tangyouwei/',
-        blogName: '远方的灯塔1'
-    };
-    result.push(userBlog)
-
-    // error = {
-    //     faultCode: API_CONSTANTS.FAULT_GET_USERS_BLOGS_ERROR,
-    //     faultString: "handleGetUsersBlogs has error!"
-    // }
+    // ========================
+    // confluence adaptor 开始
+    // ========================
+    const [err, data] = await getSpaces()
+    if (err) {
+        error = {
+            faultCode: API_CONSTANTS.FAULT_GET_USERS_BLOGS_ERROR,
+            faultString: err
+        }
+    } else {
+        // console.log("data=>", data)
+        for (let idx in data) {
+            let space = data[idx]
+            if (space.key.toUpperCase() == CONF_API_CONSTANTS.DEFAULT_SPACE_KEY.toUpperCase()) {
+                const userBlog = {
+                    blogid: space.id,
+                    url: 'https://youweics.atlassian.net/wiki/spaces/' + space.key,
+                    blogName: space.name
+                };
+                result.push(userBlog)
+            }
+        }
+    }
+    // ========================
+    // confluence adaptor 结束
+    // ========================
 
     return [error, result]
 }
