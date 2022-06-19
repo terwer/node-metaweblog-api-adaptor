@@ -88,8 +88,14 @@ async function fetchAPI_POST(path, postData = {}) {
  * @returns {Promise<(string|number|SpeechRecognitionResultList|*)[]>}
  */
 export async function getSpaces() {
-    const expansions = [];
-    const path = "/space?expand=" + expansions.join(",");
+    const expansions = []
+    const path = "/space?expand=" + expansions.join(",")
+    const [error, data] = await fetchAPI_GET(path)
+    return [error, data]
+}
+
+export async function getLabel(name) {
+    const path = "/label?name=" + name
     const [error, data] = await fetchAPI_GET(path)
     return [error, data]
 }
