@@ -100,7 +100,6 @@ export async function newPage(wikiPageTitle, wikiPage, labels) {
     return [error, data]
 }
 
-// curl -X POST -H "Authorization: Basic eW91d2VpY3NAMTYzLmNvbTpWRW0xS1J1UmpXeVp3cmNpS3VkdjU5QUQ="  -H 'Content-Type: application/json' -d'{"type":"page","title":"My Awesome Page","ancestors":[{"id":1277961}],"space":{"key":"SPC"},"body":{"storage":{"value":"<h1>Things That Are Awesome</h1><ul><li>Birds</li><li>Mammals</li><li>Decapods</li></ul>","representation":"storage"}},"metadata":{"labels":[{"prefix":"global","name":"journal"},{"prefix":"global","name":"awesome_stuff"}]}}' https://youweics.atlassian.net/wiki/rest/api/content | python -mjson.tool
 function defineConfluencePage(pageTitle, wikiEntryText, pageSpace, labels, parentPageId) {
     const newPage = new Object()
 
