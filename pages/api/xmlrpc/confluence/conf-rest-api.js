@@ -32,7 +32,7 @@ async function fetchAPI_GET(path) {
         console.error(error)
         throw new Error('Failed to fetch API')
     } else {
-        data = json.results
+        data = json.results || json
     }
     return [error, data]
 }
@@ -116,12 +116,6 @@ export async function getSpaces() {
     return [error, data]
 }
 
-export async function getLabel(name) {
-    const path = "/label?name=" + name
-    const [error, data] = await fetchAPI_GET(path)
-    return [error, data]
-}
-
 export async function newPage(wikiPageTitle, wikiPage, labels) {
     // 1、准备数据
     const wikiSpace = CONF_API_CONSTANTS.DEFAULT_SPACE_KEY;
@@ -134,6 +128,12 @@ export async function newPage(wikiPageTitle, wikiPage, labels) {
     return [error, data]
 }
 
+export async function getPage(pageid) {
+    const path = "/content/" + pageid
+    const [error, data] = await fetchAPI_GET(path)
+    return [error, data]
+}
+
 export async function editPage(postid, wikiPageTitle, wikiPage, labels) {
     // 1、准备数据
     const wikiSpace = CONF_API_CONSTANTS.DEFAULT_SPACE_KEY;
@@ -142,15 +142,34 @@ export async function editPage(postid, wikiPageTitle, wikiPage, labels) {
     let newPage = defineConfluencePage(wikiPageTitle, wikiPage, wikiSpace, labels, parentPageId)
 
     const idarr = postid.split("_")
-    const path = "/content/" + idarr[0]
-    // "version": {
-    //     "number": 19
-    // },
-    newPage.version = {
-        "number": parseInt(idarr[1]) + 1
+    const pageid = idarr[0]
+    // const version = parseInt(idarr[1]) + 1
+    const path = "/content/" + pageid
+    // // "version": {
+    // //     "number": 19
+    // // },
+    // newPage.version = {
+    //     "number": version
+    // }
+    // 查询最新版本
+    const [qerror, qdata] = await getPage(pageid)
+    console.log("qdata=>", qdata)
+    if (qdata) {
+        const version = qdata.version.number + 1
+        newPage.version = {
+            "number": version
+        }
     }
 
     const [error, data] = await fetchAPI_PUT(path, newPage)
+
+    // if(error){
+    //     // 自动新增版本
+    //     const errorObj = JSON.parse(error)
+    //     if(errorObj.statusCode == 409){
+    //
+    //     }
+    // }
     return [error, data]
 }
 
@@ -176,6 +195,10 @@ function defineConfluencePage(pageTitle, wikiEntryText, pageSpace, labels, paren
     // "body":
     // {"storage":{"value":"<p><h1>Things That Are Awesome</h1><ul><li>Birds</li><li>Mammals</li><li>Decapods</li></ul></p>","representation":"storage"}
     // }
+    // 去除多余的换行
+    wikiEntryText = wikiEntryText.replace(/[\r\n]<\/code><\/pre>[\r\n]/g, "</code></pre>");
+    // 去掉h1标签
+    wikiEntryText = wikiEntryText.replace(/<h1.*?>.*?<\/h1>\n/ig,'');
     const bodyObj = {
         "storage": {
             "value": wikiEntryText,
