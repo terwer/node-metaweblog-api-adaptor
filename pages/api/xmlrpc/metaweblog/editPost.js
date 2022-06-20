@@ -4,7 +4,7 @@ export default async function handleEditPost(reqParams) {
     let error = null
     let result = "0"
 
-    const postid = reqParams.param[0].value.string
+    const postid = reqParams.param[0].value.string || reqParams.param[0].value.int
     const username = reqParams.param[1].value
     const password = reqParams.param[2].value
     console.log("postid=>", postid)

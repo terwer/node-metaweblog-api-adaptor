@@ -116,6 +116,12 @@ export async function getSpaces() {
     return [error, data]
 }
 
+export async function getPages(num) {
+    const path = "/content?spaceKey=" + CONF_API_CONSTANTS.DEFAULT_SPACE_KEY + "&expand=version,body.storage"
+    const [error, data] = await fetchAPI_GET(path)
+    return [error, data]
+}
+
 export async function newPage(wikiPageTitle, wikiPage, labels) {
     // 1、准备数据
     const wikiSpace = CONF_API_CONSTANTS.DEFAULT_SPACE_KEY;
@@ -129,6 +135,12 @@ export async function newPage(wikiPageTitle, wikiPage, labels) {
 }
 
 export async function getPage(pageid) {
+    const path = "/content/" + pageid + "?expand=version,body.storage"
+    const [error, data] = await fetchAPI_GET(path)
+    return [error, data]
+}
+
+async function getPageDefault(pageid) {
     const path = "/content/" + pageid
     const [error, data] = await fetchAPI_GET(path)
     return [error, data]
@@ -152,10 +164,13 @@ export async function editPage(postid, wikiPageTitle, wikiPage, labels) {
     //     "number": version
     // }
     // 查询最新版本
-    const [qerror, qdata] = await getPage(pageid)
+    const [qerror, qdata] = await getPageDefault(pageid)
     console.log("qdata=>", qdata)
     if (qdata) {
-        const version = qdata.version.number + 1
+        let version = 2
+        if (qdata.version) {
+            version = qdata.version.number + 1
+        }
         newPage.version = {
             "number": version
         }
@@ -198,7 +213,7 @@ function defineConfluencePage(pageTitle, wikiEntryText, pageSpace, labels, paren
     // 去除多余的换行
     wikiEntryText = wikiEntryText.replace(/[\r\n]<\/code><\/pre>[\r\n]/g, "</code></pre>");
     // 去掉h1标签
-    wikiEntryText = wikiEntryText.replace(/<h1.*?>.*?<\/h1>\n/ig,'');
+    wikiEntryText = wikiEntryText.replace(/<h1.*?>.*?<\/h1>\n/ig, '');
     const bodyObj = {
         "storage": {
             "value": wikiEntryText,
