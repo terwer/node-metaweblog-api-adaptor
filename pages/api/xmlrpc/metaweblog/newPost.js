@@ -26,11 +26,11 @@ export default async function handleNewPost(reqParams) {
     for (let idx in postJson) {
         const item = postJson[idx]
         if (item.name == "title") {
-            title = item.value
+            title = item.value.string
             console.log("title=>", item.value)
         }
         if (item.name == "description") {
-            description = item.value
+            description = item.value.string
             console.log("description=>", item.value)
         }
         if (item.name == "categories") {

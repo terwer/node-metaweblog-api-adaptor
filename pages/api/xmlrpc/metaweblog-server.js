@@ -1,6 +1,7 @@
 import handleGetUsersBlogs from "./metaweblog/getUsersBlogs";
 import handleGetCategories from "./metaweblog/getCategories";
 import handleNewPost from "./metaweblog/newPost";
+import handleEditPost from "./metaweblog/editPost";
 import API_CONSTANTS from "./constant"
 
 export default async function handleResponse(reqMethodName, reqParams) {
@@ -13,6 +14,10 @@ export default async function handleResponse(reqMethodName, reqParams) {
             break
         case API_CONSTANTS.METAWEBLOG_NEW_POST:
             return await handleNewPost(reqParams)
+            break
+        case API_CONSTANTS.METAWEBLOG_EDIT_POST:
+            return await handleEditPost(reqParams)
+            break
         default:
             break
     }

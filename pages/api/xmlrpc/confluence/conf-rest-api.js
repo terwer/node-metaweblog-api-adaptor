@@ -66,6 +66,40 @@ async function fetchAPI_POST(path, postData = {}) {
         console.error(error)
         throw new Error('Failed to fetch API')
     } else {
+        data = json.id + "_" + json.version.number
+    }
+    return [error, data]
+}
+
+async function fetchAPI_PUT(path, postData = {}) {
+    let error = null
+    let data = null
+
+    const headers = {'Content-Type': 'application/json'}
+    const username = process.env.CONFLUENCE_REST_USERNAME
+    const password = process.env.CONFLUENCE_REST_PASSWORD
+
+    if (process.env.CONFLUENCE_REST_USERNAME && process.env.CONFLUENCE_REST_PASSWORD) {
+        // headers['Authorization'] = `Bearer ${process.env.CONFLUENCE_REST_TOKEN}`
+        headers['Authorization'] = 'Basic ' + base64.encode(username + ":" + password);
+    }
+
+    // confluence rest api
+    const url = `${API_URL}` + path;
+    const res = await fetch(url, {
+        headers,
+        method: 'PUT',
+        body: JSON.stringify(postData),
+    })
+
+    const resText = await res.text()
+
+    const json = JSON.parse(resText)
+    if (json.statusCode) {
+        error = JSON.stringify(json)
+        console.error(error)
+        throw new Error('Failed to fetch API')
+    } else {
         data = json.id
     }
     return [error, data]
@@ -100,6 +134,26 @@ export async function newPage(wikiPageTitle, wikiPage, labels) {
     return [error, data]
 }
 
+export async function editPage(postid, wikiPageTitle, wikiPage, labels) {
+    // 1、准备数据
+    const wikiSpace = CONF_API_CONSTANTS.DEFAULT_SPACE_KEY;
+    const parentPageId = CONF_API_CONSTANTS.DEFAULT_PARENT_PAGE_ID
+
+    let newPage = defineConfluencePage(wikiPageTitle, wikiPage, wikiSpace, labels, parentPageId)
+
+    const idarr = postid.split("_")
+    const path = "/content/" + idarr[0]
+    // "version": {
+    //     "number": 19
+    // },
+    newPage.version = {
+        "number": parseInt(idarr[1]) + 1
+    }
+
+    const [error, data] = await fetchAPI_PUT(path, newPage)
+    return [error, data]
+}
+
 // curl -X POST -H "Authorization: Basic eW91d2VpY3NAMTYzLmNvbTpWRW0xS1J1UmpXeVp3cmNpS3VkdjU5QUQ="  -H 'Content-Type: application/json' -d'{"type":"page","title":"My Awesome Page","ancestors":[{"id":1277961}],"space":{"key":"SPC"},"body":{"storage":{"value":"<h1>Things That Are Awesome</h1><ul><li>Birds</li><li>Mammals</li><li>Decapods</li></ul>","representation":"storage"}},"metadata":{"labels":[{"prefix":"global","name":"journal"},{"prefix":"global","name":"awesome_stuff"}]}}' https://youweics.atlassian.net/wiki/rest/api/content | python -mjson.tool
 function defineConfluencePage(pageTitle, wikiEntryText, pageSpace, labels, parentPageId) {
     const newPage = new Object()
@@ -107,7 +161,7 @@ function defineConfluencePage(pageTitle, wikiEntryText, pageSpace, labels, paren
     // "type":"page",
     // "title":"My Awesome Page"
     newPage.type = "page"
-    newPage.title = pageTitle.string
+    newPage.title = pageTitle
 
     // "ancestors":[{"id":1277961}]
     const parentPageArray = new Array()
@@ -124,7 +178,7 @@ function defineConfluencePage(pageTitle, wikiEntryText, pageSpace, labels, paren
     // }
     const bodyObj = {
         "storage": {
-            "value": wikiEntryText.string,
+            "value": wikiEntryText,
             "representation": "storage"
         }
     }
@@ -141,7 +195,7 @@ function defineConfluencePage(pageTitle, wikiEntryText, pageSpace, labels, paren
     // }
     const newLabels = new Array()
     for (let idx in labels) {
-        const item = labels[idx].string
+        const item = labels[idx].string || labels[idx]
         const newLabel = {
             "prefix": item,
             "name": item
