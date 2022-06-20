@@ -2,7 +2,7 @@ import {newPage} from "../confluence/conf-rest-api";
 
 export default async function handleNewPost(reqParams) {
     let error = null
-    let result = 0
+    let result = "0"
 
     const appKey = reqParams.param[0].value
     const username = reqParams.param[1].value
@@ -26,11 +26,11 @@ export default async function handleNewPost(reqParams) {
     for (let idx in postJson) {
         const item = postJson[idx]
         if (item.name == "title") {
-            title = item.value
+            title = item.value.string
             console.log("title=>", item.value)
         }
         if (item.name == "description") {
-            description = item.value
+            description = item.value.string
             console.log("description=>", item.value)
         }
         if (item.name == "categories") {
@@ -39,7 +39,7 @@ export default async function handleNewPost(reqParams) {
         }
     }
 
-    [error, result] = newPage(title, description, categories)
+    [error, result] = await newPage(title, description, categories)
     // ========================
     // confluence adaptor 结束
     // ========================
