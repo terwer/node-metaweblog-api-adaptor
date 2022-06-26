@@ -235,7 +235,7 @@ function defineConfluencePage(pageTitle, wikiEntryText, pageSpace, labels, paren
     for (let idx in labels) {
         const item = labels[idx].string || labels[idx]
         const newLabel = {
-            "prefix": item,
+            "prefix": "global",
             "name": item
         }
         newLabels.push(newLabel)
