@@ -23,23 +23,30 @@ export default async function handleEditPost(reqParams) {
     let title = ""
     let description = ""
     let categories = []
+    let tags = []
     for (let idx in postJson) {
         const item = postJson[idx]
         if (item.name == "title") {
-            title = item.value.string
+            title = item.value.string || ""
             console.log("title=>", item.value)
         }
         if (item.name == "description") {
-            description = item.value.string
+            description = item.value.string || ""
             console.log("description=>", item.value)
         }
         if (item.name == "categories") {
-            categories = item.value.array.data.value
-            console.log("categories=>", item.value)
+            if (item.value.array.data.value) {
+                categories = item.value.array.data.value
+            }
+        }
+        if (item.name == "mt_keywords") {
+            if (item.value.string) {
+                tags = item.value.string.split(",");
+            }
         }
     }
 
-    [error, result] = await editPage(postid, title, description, categories)
+    [error, result] = await editPage(postid, title, description, tags)
     // ========================
     // confluence adaptor 结束
     // ========================

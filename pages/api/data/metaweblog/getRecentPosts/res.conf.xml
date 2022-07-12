@@ -1,0 +1,2266 @@
+<?xml version="1.0"?><methodResponse><params><param><value><array><data><value><struct><member><name>dateCreated</name><value><string>2022-01-14T21:34:17.594Z</string></value></member><member><name>description</name><value><string><![CDATA[<ac:layout><ac:layout-section ac:type="single"><ac:layout-cell><ac:structured-macro ac:macro-id="5da7fd26-ee1a-4fe5-a582-dcf9bfaf8f45" ac:name="tip" ac:schema-version="1"><ac:rich-text-body><p>Welcome to your first space. Go ahead, edit and customize this home page any way you like. We've added some sample content to get you started.</p></ac:rich-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell><p><ac:image><ri:attachment ri:filename="peak.jpeg" /></ac:image></p><p>&nbsp;</p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="two_right_sidebar"><ac:layout-cell><hr /><h1><strong>Goal</strong></h1><h2><em>Your space homepage should summarize what the space is for, and provide links to key resources for your team.&nbsp;</em></h2><hr /><p>&nbsp;</p><h1><strong>Core team</strong></h1><table><tbody><tr><td><p style="text-align: center;"><ac:image ac:thumbnail="true" ac:width="100"><ri:attachment ri:filename="Harvey.jpg" /></ac:image></p><p style="text-align: center;"><strong>Harvey Honner-white<br /></strong>Team Lead<strong>&nbsp;</strong></p></td><td><p style="text-align: center;"><ac:image ac:thumbnail="true" ac:width="100"><ri:attachment ri:filename="Alana.jpg" /></ac:image></p><p style="text-align: center;"><strong>Alana Baczewski<br />&nbsp;</strong>Tech Lead</p></td><td><p style="text-align: center;"><ac:image ac:thumbnail="true" ac:width="100"><ri:attachment ri:filename="Sameer.jpg" /></ac:image></p><p style="text-align: center;"><strong>Sameer Farrell<br />&nbsp;</strong>Marketing</p></td><td><p style="text-align: center;"><ac:image ac:thumbnail="true" ac:width="100"><ri:attachment ri:filename="Cassie.jpg" /></ac:image></p><p style="text-align: center;"><strong>Mia Bednarczyk<br />&nbsp;</strong>Recruitment</p></td></tr></tbody></table><p>&nbsp;</p><h1><strong>Roadmap</strong></h1><p>You can edit this roadmap or create a new one by adding the Roadmap Planner macro from the Insert menu. Link your Confluence pages to each bar to add visibility, and find more tips by reading the Atlassian blog:&nbsp;<a href="http://blogs.atlassian.com/2015/01/roadmap-planner-macro/">Plan better in 2015 with the Roadmap Planner macro</a>.</p><p><ac:structured-macro ac:macro-id="acab4a3d-dde3-4e22-a912-ce9f886e3e91" ac:name="roadmap" ac:schema-version="1"><ac:parameter ac:name="maplinks" /><ac:parameter ac:name="timeline">true</ac:parameter><ac:parameter ac:name="pagelinks" /><ac:parameter ac:name="source">%7B%22title%22%3A%22Roadmap%20Planner%22%2C%22timeline%22%3A%7B%22startDate%22%3A%222015-06-01%2000%3A00%3A00%22%2C%22endDate%22%3A%222015-12-31%2000%3A00%3A00%22%2C%22displayOption%22%3A%22MONTH%22%7D%2C%22lanes%22%3A%5B%7B%22title%22%3A%22Marketing%22%2C%22color%22%3A%7B%22lane%22%3A%22%23f15c75%22%2C%22bar%22%3A%22%23f58598%22%2C%22text%22%3A%22%23ffffff%22%2C%22count%22%3A1%7D%2C%22bars%22%3A%5B%7B%22title%22%3A%22Social%20campaign%22%2C%22description%22%3A%22Add%20a%20description%20to%20your%20bars%20here.%22%2C%22startDate%22%3A%222015-07-30%2011%3A10%3A05%22%2C%22duration%22%3A3.6435643564356437%2C%22rowIndex%22%3A0%2C%22id%22%3A%22e703c6a8-1649-4d20-9ccf-2c7a8698e385%22%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22title%22%3A%22Website%20development%22%2C%22description%22%3A%22Add%20a%20description%20to%20your%20bars%20here.%22%2C%22startDate%22%3A%222015-07-17%2006%3A24%3A57%22%2C%22duration%22%3A3.3069306930693068%2C%22rowIndex%22%3A1%2C%22id%22%3A%22655d454d-b701-4584-a301-9ea0bb86ed32%22%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22rowIndex%22%3A2%2C%22startDate%22%3A%222015-06-01%2000%3A00%3A00%22%2C%22id%22%3A%22c420ef33-ae28-4828-958f-8a9d793153b3%22%2C%22title%22%3A%22Crowdfunding%20campaign%22%2C%22description%22%3A%22Add%20a%20description%20to%20your%20bars%20here.%22%2C%22duration%22%3A2.5544554455445545%2C%22pageLink%22%3A%7B%7D%7D%5D%7D%2C%7B%22title%22%3A%22People%22%2C%22color%22%3A%7B%22lane%22%3A%22%23654982%22%2C%22bar%22%3A%22%238c77a1%22%2C%22text%22%3A%22%23ffffff%22%2C%22count%22%3A1%7D%2C%22bars%22%3A%5B%7B%22title%22%3A%22Recruitment%22%2C%22description%22%3A%22%22%2C%22startDate%22%3A%222015-06-01%2000%3A00%3A00%22%2C%22duration%22%3A2.5%2C%22rowIndex%22%3A0%2C%22id%22%3A%221230bab8-718c-47da-903a-2cbdcb220d97%22%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22rowIndex%22%3A0%2C%22startDate%22%3A%222015-08-17%2013%3A46%3A55%22%2C%22id%22%3A%228639d09c-59d1-4d1f-ad91-c78f04b20135%22%2C%22title%22%3A%22Assessment%20Period%22%2C%22description%22%3A%22%22%2C%22duration%22%3A2.910891089108911%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22rowIndex%22%3A1%2C%22startDate%22%3A%222015-09-01%2021%3A23%3A10%22%2C%22id%22%3A%22802b53f7-ba66-4415-984d-efef93b4caec%22%2C%22title%22%3A%22Training%22%2C%22description%22%3A%22%22%2C%22duration%22%3A2.5841584158415842%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22rowIndex%22%3A0%2C%22startDate%22%3A%222015-11-15%2006%3A10%3A41%22%2C%22id%22%3A%22502fac56-3849-415f-b412-af27c39229b7%22%2C%22title%22%3A%22Finalisation%22%2C%22description%22%3A%22%22%2C%22duration%22%3A1.4356435643564356%2C%22pageLink%22%3A%7B%7D%7D%5D%7D%2C%7B%22title%22%3A%22Product%22%2C%22color%22%3A%7B%22lane%22%3A%22%233b7fc4%22%2C%22bar%22%3A%22%236c9fd3%22%2C%22text%22%3A%22%23ffffff%22%2C%22count%22%3A1%7D%2C%22bars%22%3A%5B%7B%22rowIndex%22%3A0%2C%22startDate%22%3A%222015-06-24%2004%3A02%3A22%22%2C%22id%22%3A%2200ada54b-0998-41a5-aa98-712ecdec8c7f%22%2C%22title%22%3A%22Planning%22%2C%22description%22%3A%22%22%2C%22duration%22%3A2.1782178217821784%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22rowIndex%22%3A0%2C%22startDate%22%3A%222015-08-31%2001%3A54%3A03%22%2C%22id%22%3A%2271967f2c-f3ab-4871-aaf5-7cf31389e62f%22%2C%22title%22%3A%22Development%22%2C%22description%22%3A%22%22%2C%22duration%22%3A1.9207920792079207%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22rowIndex%22%3A0%2C%22startDate%22%3A%222015-10-29%2013%3A04%3A09%22%2C%22id%22%3A%22d76ac773-3ee7-495b-9d7f-1daf267dc58c%22%2C%22title%22%3A%22Testing%22%2C%22description%22%3A%22%22%2C%22duration%22%3A1%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22rowIndex%22%3A0%2C%22startDate%22%3A%222015-11-30%2002%3A36%3A49%22%2C%22id%22%3A%224f584dc6-63b8-4efa-a98e-a5d7bbe9910e%22%2C%22title%22%3A%22Deploy%22%2C%22description%22%3A%22%22%2C%22duration%22%3A1.0297029702970297%2C%22pageLink%22%3A%7B%7D%7D%5D%7D%5D%2C%22markers%22%3A%5B%7B%22title%22%3A%22Yearly%20Finalisation%22%2C%22markerDate%22%3A%222015-11-29%2012%3A21%3A23%22%7D%5D%7D</ac:parameter><ac:parameter ac:name="title">Roadmap%20Planner</ac:parameter><ac:parameter ac:name="hash">f0477dfac6f6ca380d8c5f2f44041947</ac:parameter></ac:structured-macro></p><p>&nbsp;</p><h1><strong>Know your spaces</strong>&nbsp;</h1><p>Everything your team is working on - meeting notes and agendas, project plans and timelines, technical documentation and more - is located in a space; it's home base for your team.</p><p>A small team should plan to have a space for the team, and a space for each big project. If you'll be working in Confluence with several other teams and departments, we recommend a space for each team as well as a space for each major cross-team project. The key is to think of a space as the container that holds all the important stuff - like pages, files, and blog posts - a team, group, or project needs to work.</p><h1><strong>Know your pages</strong></h1><p>If you're working on something related to your team - project plans, product requirements, blog posts, internal communications, you name it - create and store it in a Confluence page. Confluence pages offer a lot of flexibility in creating and storing information, and there are a number of useful page templates included to get you started, like the&nbsp;meeting notes template. Your spaces should be filled with pages that document your business processes, outline your plans, contain your files, and report on your progress. The more you learn to do in Confluence (adding tables and graphs, or embedding video and links are great places to start), the more engaging and helpful your pages will become.</p><p>Learn more by reading&nbsp;<a href="https://www.atlassian.com/collaboration/confluence-organize-work-in-spaces">Confluence 101: organize your work in spaces</a></p><p>&nbsp;</p><hr /></ac:layout-cell><ac:layout-cell><h1><strong>Quick navigation</strong></h1><p>When you create new pages in this space, they'll appear here automatically.</p><p><ac:structured-macro ac:macro-id="8ca379f2-ea2a-4fbb-bf4a-77619f9875ed" ac:name="children" ac:schema-version="2" /></p><h1><strong>Useful links</strong></h1><table><tbody><tr><th>Link</th><th>Description</th></tr><tr><td><a href="https://www.atlassian.com/collaboration/confluence-organize-work-in-spaces">Confluence 101: organize your work in spaces</a></td><td><p>Chances are, the information you need to do your job lives in multiple places. Word docs, Evernote files, email, PDFs, even Post-it notes. It's scattered among different systems. And to make matters worse,&nbsp;<em>the stuff your teammates need is equally siloed</em>. If information had feelings, it would be lonely.</p><p>But with&nbsp;Confluence, you can bring all that information into one place.</p></td></tr><tr><td><a href="https://www.atlassian.com/collaboration/confluence-discuss-work-with-your-team">Confluence 101: discuss work with your team</a></td><td>Getting a project outlined and adding the right content are just the first steps. Now it's time for your team to weigh in.&nbsp;Confluence&nbsp;makes it easy to discuss your work - with your team, your boss, or your entire company - in the same place where you organized and created it.</td></tr><tr><td colspan="1"><a href="https://www.atlassian.com/collaboration/confluence-create-content-with-pages">Confluence 101: create content with pages</a></td><td colspan="1">Think of pages as a New Age &quot;document.&quot; If Word docs were rotary phones, Confluence pages would be smart phones. A smart phone still makes calls (like their rotary counterparts), but it can do so much more than that</td></tr></tbody></table><p><strong style="font-size: 24.0px;line-height: 1.25;"><br /></strong></p><p><strong style="font-size: 24.0px;line-height: 1.25;">Tasks</strong></p><table><tbody><tr><td><ac:task-list>
+<ac:task>
+<ac:task-id>59</ac:task-id>
+<ac:task-status>complete</ac:task-status>
+<ac:task-body><a href="https://confluence.atlassian.com/x/NgszKw">Customize the name, colour, and icon of Confluence</a>.</ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>56</ac:task-id>
+<ac:task-status>complete</ac:task-status>
+<ac:task-body>Decide who can see and edit this space or a specific page by clicking the <ac:image><ri:attachment ri:filename="lock-icon.png" /></ac:image> icon. Learn more about <a href="https://confluence.atlassian.com/x/liAC">Page Restrictions</a> and <a href="https://confluence.atlassian.com/x/ASEC">Space Permissions</a>.</ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>57</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>Try adding an <a href="https://confluence.atlassian.com/x/2yAC">inline comment</a> by highlighting some text and click the comment icon.</ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>58</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>Learn more about <a href="https://confluence.atlassian.com/x/SRwC">inviting your team to Confluence</a>.</ac:task-body>
+</ac:task>
+</ac:task-list>
+</td></tr></tbody></table></ac:layout-cell></ac:layout-section></ac:layout>]]></string></value></member><member><name>title</name><value><string>知识库</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/overview</string></value></member><member><name>permalink</name><value><string>/x/ZoAM</string></value></member><member><name>postid</name><value><string>819302</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-25T15:44:47.123Z</string></value></member><member><name>description</name><value><string><![CDATA[<p>Mac使用 VMWare Fusion 给 Fedora 或者 Rocky Linux 虚拟机 安装 VMWare Tools</p><h1>fedora</h1><p>先卸载 open-vm-tools&nbsp;</p><p><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="0b0e9b81-a7f9-4567-a017-9cd907cafa93"><ac:plain-text-body><![CDATA[```
+sudo dnf remove open-vm-tools
+```]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p><br /></p><p>在Vmware Fusion中开启共享文件夹，并设置共享目录。</p><p>再点击菜单栏安装 VMware Tools</p><p>然后按照下面的步骤安装</p><p><a href="https://docs.vmware.com/cn/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-08BB9465-D40A-4E16-9E15-8C016CC8166F.html">https://docs.vmware.com/cn/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-08BB9465-D40A-4E16-9E15-8C016CC8166F.html</a></p><p><br /></p><h1>rockey linux</h1><p><br /></p><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="75e3823b-041d-4a99-9aee-9e5f79cc7821"><ac:plain-text-body><![CDATA[# 安装 open-vm-tools
+sudo dnf install open-vm-tools
+
+# 手动挂载
+sudo /usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs -o subtype=vmhgfs-fuse,allow_other]]></ac:plain-text-body></ac:structured-macro><p>参考</p><p><a href="https://kb.vmware.com/s/article/60262">https://kb.vmware.com/s/article/60262</a></p><p><br /></p>]]></string></value></member><member><name>title</name><value><string>在Fedora 或者 Rocky Linux 虚拟机中手动安装 VMware Tools</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819393</string></value></member><member><name>permalink</name><value><string>/x/wYAM</string></value></member><member><name>postid</name><value><string>819393</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-02-13T03:02:59.086Z</string></value></member><member><name>description</name><value><string><![CDATA[<h2><strong>问题：</strong></h2><p>Parallels Desktop 17.1.1 安装win11过程中提示&ldquo;操作失败 执行该操作失败&rdquo;，英文&ldquo;Parallels 17.1.1 - Operation Failed. Failed to execute the operation - Fixed&rdquo;。</p><p><ac:image ac:style="max-height: 250.0px;" ac:height="250"><ri:attachment ri:filename="image2022-2-13_3-0-5.png" /></ac:image></p><h2><strong>解决：</strong></h2><p><strong>选择 操作 -&gt; 配置</strong></p><p><ac:image ac:style="max-height: 250.0px;" ac:height="250"><ri:attachment ri:filename="image2022-2-13_3-0-24.png" /></ac:image>&Aring;</p><p><strong>选择 硬件 -&gt; CPU与内存 -&gt; 高级</strong></p><p><ac:image ac:style="max-height: 250.0px;" ac:height="250"><ri:attachment ri:filename="image2022-2-13_3-0-39.png" /></ac:image></p><p><strong>选择 选择虚拟机监控程序 -&gt; Parallels。</strong></p><p><ac:image ac:style="max-height: 250.0px;" ac:height="250"><ri:attachment ri:filename="image2022-2-13_3-0-54.png" /></ac:image></p><p>再重试就正常了。</p><p>如果你都无法创建这个虚拟机，那可以在创立虚拟机之时就设定好，选中安装前设定。</p><p>然后在弹出来的设置中，还是如前面一般设置。</p><p><br /></p><p>PS：</p><p>如果提示 要执行此操作，您必须输入主机操作系统管理员认证凭据</p><p>英文是 you need permission to perform this action</p><p>直接关闭重新装载光盘即可。</p><p><br /></p><p><br /></p>]]></string></value></member><member><name>title</name><value><string>Parallels Desktop 17.1.1 操作失败 执行该操作失败 解决方案</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819399</string></value></member><member><name>permalink</name><value><string>/x/x4AM</string></value></member><member><name>postid</name><value><string>819399</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-02-13T01:27:00.321Z</string></value></member><member><name>description</name><value><string><![CDATA[<p style=""><strong>一、在 Parallels Desktop 菜单中请进入Parallels Desktop &rarr; 偏好设置 &rarr; 高级 &rarr; 网络 并选择 恢复默认设置。</strong></p><p style=""><br /></p><p style=""><strong><ac:image ac:style="max-height: 250.0px;" ac:thumbnail="true" ac:height="250"><ri:attachment ri:filename="image2022-2-13_1-25-27.png" /></ac:image></strong></p><p style=""><br /></p><p style=""><strong><ac:image ac:style="max-height: 250.0px;" ac:height="250"><ri:attachment ri:filename="image2022-2-13_1-25-53.png" /></ac:image></strong></p><p style=""><br /></p><p style=""><strong><ac:image ac:style="max-height: 250.0px;" ac:thumbnail="true" ac:height="250"><ri:attachment ri:filename="image2022-2-13_1-26-54.png" /></ac:image></strong></p><p style=""><br /></p><p style="">注意： 您在 Parallels Desktop 中的网络设置将会丢失，因此如果很重要请在进行以上操作之前请保存或记住这些设置。</p><p style=""><strong>二、进入Windows系统，打开命令提示符：</strong></p><p style="">1)&nbsp;Windows XP 系统打开命令提示符方法： 单击开始按钮然后单击运行&hellip; 弹出窗口时，请输入 CMD 并按返回/Enter 键。</p><p style="">2) Windows 7 / 10 系统打开命令提示符方法： 单击开始按钮并在搜索框中输入 CMD。 然后，右击搜索结果中的 CMD 然后单击&ldquo;以管理员身份运行&rdquo;选项。 将会打开管理员权限下的命令提示。</p><p style=""><br /></p><p style=""><strong>三、在命令提示符窗口输入：</strong></p><p style="">netsh winsock reset 然后按回车；</p><p style="">netsh int ip reset<span>&nbsp;</span><span class="skimlinks-unlinked">reset.log</span><span>&nbsp;</span>然后按回车。</p><p style=""><br /></p><p style=""><strong>四、重启Windows系统，然后不能上网的问题就解决了。</strong></p>]]></string></value></member><member><name>title</name><value><string>解决升级 Parallels Desktop 后原来的 Windows 不能上网的解决方法</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819411</string></value></member><member><name>permalink</name><value><string>/x/04AM</string></value></member><member><name>postid</name><value><string>819411</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-02-13T00:03:24.063Z</string></value></member><member><name>description</name><value><string><![CDATA[<p style="text-align: left;">vs6 sp6的下载地址：</p><p style="text-align: left;">英文版地址：<br /><a href="http://download.microsoft.com/download/1/9/f/19fe4660-5792-4683-99e0-8d48c22eed74/Vs6sp6.exe">http://download.microsoft.com/download/1/9/f/19fe4660-5792-4683-99e0-8d48c22eed74/Vs6sp6.exe</a></p><p style="text-align: left;"><br />简体中文版地址：<br /><a href="http://download.microsoft.com/download/e/c/9/ec94a5d4-d0cf-4484-8b7a-21802f497309/Vs6sp6.exe" style="text-decoration: none;">http://download.microsoft.com/download/e/c/9/ec94a5d4-d0cf-4484-8b7a-21802f497309/Vs6sp6.exe</a></p><p><br /></p><p>参考</p><p><a href="https://zhuanlan.kanxue.com/article-400.htm">https://zhuanlan.kanxue.com/article-400.htm</a></p>]]></string></value></member><member><name>title</name><value><string>Microsoft Visual C++ 6.0 下载地址，包括英文版和中文版</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819415</string></value></member><member><name>permalink</name><value><string>/x/14AM</string></value></member><member><name>postid</name><value><string>819415</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-07-05T14:11:05.784Z</string></value></member><member><name>description</name><value><string><![CDATA[<blockquote><p>文章更新历史</p><p>2022/07/05 feat:提供更好的办法，直接添加到 file header 里面。</p></blockquote><h1>生成类注释</h1><p>1、打开 Preferences</p><p>2、Editor -&gt; File and Code Templates -&gt; Files -&gt; Class</p><p>在此添加的话你每次创建类的时候会弹两次框，第二次是让你输入 description 的内容了</p><p>代码如下</p><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="8e0e8e4d-4304-4cef-b192-014a388e043b"><ac:parameter ac:name="language">java</ac:parameter><ac:plain-text-body><![CDATA[/**
+ * ${description}
+ *
+ * @name: ${NAME}
+ * @author: ${USER}
+ * @date: ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE}
+ **/]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p>接口(Interface)、枚举(Enum)、注解(Annotation)的注释同理。 &nbsp;生成效果</p><ac:image ac:align="left" ac:layout="align-start" ac:src="https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220705214622.jpeg"><ri:url ri:value="https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220705214622.jpeg" /></ac:image><p>IDEA 中其他类的查看效果</p><ac:image ac:align="left" ac:layout="align-start" ac:src="https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220705214711.jpeg"><ri:url ri:value="https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220705214711.jpeg" /></ac:image><ul><li><p>备注：为什么不用下面的格式：因为下面的格式在另一个类无法查看注释。</p></li></ul><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="005983df-9335-4943-b06d-978af179a301"><ac:parameter ac:name="language">java</ac:parameter><ac:plain-text-body><![CDATA[/**
+* @name: ${NAME}
+* @description: ${description}
+* @author: ${USER}
+* @date: ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE}
+**/]]></ac:plain-text-body></ac:structured-macro><p>PS:其实还有更好的办法，直接添加到 File Header 里面。</p><ac:image ac:align="left" ac:layout="align-start" ac:src="https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220705215736.png"><ri:url ri:value="https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220705215736.png" /></ac:image><h1>生成方法注释</h1><p>打开 Preferences</p><p>Editor -&gt; Live Templates -&gt; 点击右边加号为自己添加一个 Templates Group -&gt; 然后选中自己的 Group 再次点击加号添加 Live Templates</p><p>新建模板：命名为 c</p><p>因为 IDEA 生成注释的默认方式是：/*+ 模板名 + 快捷键（比如若设置模板名为 c 快捷键用 Tab，则生成方式为 <code>/*c+Tab</code> ），如果不采用这样的生成方式 IDEA 中没有内容的方法将不可用，例如获取方法参数的 methodParameters(）、获取方法返回值的 methodReturnType(）</p><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="f3998ae6-fbff-4d61-89d3-ebda970782a0"><ac:parameter ac:name="language">java</ac:parameter><ac:plain-text-body><![CDATA[
+ * @description: $description$
+ * @param: $params$
+ * @return: $returns$
+ * @author: $user$
+ * @date: $date$
+ */]]></ac:plain-text-body></ac:structured-macro>]]></string></value></member><member><name>title</name><value><string>IDEA自定义生成注释与作者版权信息</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819419</string></value></member><member><name>permalink</name><value><string>/x/24AM</string></value></member><member><name>postid</name><value><string>819419</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-24T14:17:52.763Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="b6809131-7fac-4bb3-ae25-e922e99be5f5"><ac:plain-text-body><![CDATA[让fedora从启动后进入命令行：
+```
+rm -f  /etc/systemd/system/default.target
+ln -s /lib/systemd/system/runlevel3.target /etc/systemd/system/default.target
+```
+
+让fedora使用默认启动方式图形化界面：
+```
+rm -f  /etc/systemd/system/default.target
+ln -s /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
+```
+
+开机自启动等参考
+
+https://www.jianshu.com/p/d6586bccee5b
+
+```
+# 注意：Centos7以上使用下面命令
+sudo systemctl enable sshd
+```]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p class="auto-cursor-target"><br /></p>]]></string></value></member><member><name>title</name><value><string>Fedora切换命令行与图形界面登录</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819424</string></value></member><member><name>permalink</name><value><string>/x/4IAM</string></value></member><member><name>postid</name><value><string>819424</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-18T20:19:20.674Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="03235782-77e4-40d5-b39d-458e91ac022c"><ac:plain-text-body><![CDATA[# 什么是bs模式
+
+browser/server：浏览器、服务器
+
+浏览器客户端发起http请求到服务器，服务器返回结果给浏览器，浏览器展示返回的内容
+
+# 浏览器访问服务器的流程
+
+http请求处理过程
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152521227-648895264.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152522083-634572866.jpg&w=500&h=500)
+
+浏览器访问服务器使用的http协议，http是应用层协议，定义了数据通信的格式
+
+具体的传输由传输层控制，使用的是TCP/IP协议
+
+# Tomcat的系统架构
+
+tomcat是一个http服务器，能够接收并处理http请求
+
+## Tomcat请求处理流程
+
+浏览器发起请求->远端服务器接收请求，调用java类处理对应的请求
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152521647-2029054303.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152521123-379796969.jpg&w=500&h=500)
+
+http请求到达服务器之后，会交给Servlet容器来处理，Servlet通过Sevlet接口调用业务类。
+
+Servlet容器和Servlet接口的整套内容叫做Servlet规范
+
+最新的Servlet规范是Servlet5.0
+
+https://jakarta.ee/specifications/servlet/5.0/jakarta-servlet-spec-5.0.html
+
+Tomcat按照Servlet规范实现了Servlet容器，兼备Servlet和http的功能
+
+Tomcat的双重身份
+
+1、http服务器
+
+2、Servlet容器
+
+## Tomcat Servlet容器处理流程
+
+请求通过某个特定的URL到达服务器
+
+1、http服务器把请求封装成SevletRequest对象
+
+2、调用Servlet容器中的某个Sevlet
+
+3、在上一步骤中，Servlet容器通过URL与Sevlet的映射关系，找到对应的Servlet
+
+4、如果Servlet没有加载，就使用反射创建Servlet，并调用init方法初始化这个Servlet
+
+5、调用Servlet的service方法处理请求，并将结果封装成ServletResponse对象
+
+6、ServletResponse对象返回给浏览器，浏览器渲染页面
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152521122-1519242977.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152521508-1045179621.jpg&w=500&h=500)
+
+## Tomcat总体系统架构
+
+Tomcat的两个重要功能
+
+1、和客户端浏览器交互，通过socket通信，将字节流与ServletRequest和ServletResponse进行转换
+
+2、Servlet容器处理业务逻辑
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152521781-870979704.jpg&w=500&h=500)
+
+Tomcat的2大角色对应了两个核心组件
+
+连接器（Connector）和容器（Container）
+
+连接器：对外交流，socket链接，处理字节流与Request和Response的转换
+
+容器：对内管理，加载和管理Servlet，处理Request请求
+
+# Tomcat的连接器组件 Coyote
+
+## Coyote简介
+
+客户端通过 Coyote 与服务器建立链接，发送请求并接收响应
+
+1、Coyote 封装了底层网络通信 （接收请求与响应处理）
+
+2、Coyote 使得 Catania 容器与具体的协议和I/O操作方式解耦
+
+3、Coyote将Socket输入转换封装成Request对象，进一步封装之后交给 Catania 容器处理，处理完成之后，Catania通过Coyote将Response对象的结果写入到输出流
+
+4、Coyote 负责的是具体协议（应用层）和I/O（传输层）
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152521124-1087680436.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152521126-1230998085.jpg&w=500&h=500)
+
+Coyote 支持的IO模型与协议
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152522176-1955038400.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152521973-1061223124.jpg&w=500&h=500)
+
+8.0之前Tomcat的默认IO方式为BIO，8.0之后为NIO，性能要优于BIO，APR是本地库，性能最佳，但是需要操作系统底层支持，要安装可移植库
+
+## Coyote的内部组件
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152519151-2036946306.jpg&w=500&h=500)
+
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152523247-534835350.png&w=500&h=500)
+
+Coyote 组件的作用
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152523743-2025601584.jpg&w=500&h=500)
+
+# Tomcat的Servlet容器 Catania
+
+## Tomcat的分层结构以及Catania的位置
+
+Tomcat是有一系列配置 conf/server.xml 构成的Web容器，而Catania 则是Servlet容器。
+
+Tomcat的本质是Servlet容器，Catania是啥Tomcat的核心，其他组件都是为Catania服务的。
+Jasper是处理jsp的，naming提供JNDI，juli提供日志服务。
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152521140-402477633.jpg&w=500&h=500)
+
+## Servlet容器Catania的结构
+
+Tomcat/Catalina实例
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118152522172-1588939203.jpg&w=500&h=500)
+
+一个Catalina实例(容器)
+
+一个 Server实例(容器)
+
+多个Service实例(容器)
+
+每一个Service实例下可以有多个Connector实例和一个Container实例
+
+Catalina
+负责解析Tomcat的配置文件(server.xml) , 以此来创建服务器Server组件并进行管理
+
+Server
+服务器表示整个Catalina Servlet容器以及其它组件，负责组装并启动Servlaet引擎,Tomcat连接器。Server通过实现Lifecycle接口，提供了一种优雅的启动和关闭整个系统的方式
+
+Service
+服务是Server内部的组件，一个Server包含多个Service。它将若干个Connector组件绑定到一个 Container
+
+Container容器，负责处理用户的servlet请求，并返回对象给web用户的模块
+
+## Container组件的具体结构
+
+Engine
+表示整个Catalina的Servlet引擎，用来管理多个虚拟站点，一个Service最多只能有一个Engine， 但是一个引擎可包含多个Host
+
+Host
+代表一个虚拟主机，或者说一个站点，可以给Tomcat配置多个虚拟主机地址，而一个虚拟主机下
+可包含多个Context
+
+Context
+表示一个Web应用程序， 一个Web应用可包含多个Wrapper
+
+Wrapper
+表示一个Servlet，Wrapper 作为容器中的最底层，不能包含子容器
+
+上述组件的配置其体现在 `conf/server.xml` 中
+
+# Tomcat的核心配置
+
+Tomcat 作为服务器的配置，主要是 server.xml 文件的配置;
+
+server.xml中包含了 Servlet容器的相关配置，即 Catalina 的配置;
+
+## server.xml 的主要结构
+
+```
+<!--
+Server 根元素，创建一个Server实例，子标签有 Listener、GlobalNamingResources、
+Service
+-->
+<Server>
+    <!--定义监听器-->
+    <Listener/>
+
+    <!--定义服务器的全局JNDI资源 -->
+    <GlobalNamingResources/>
+
+    <!--
+    定义一个Service服务，一个Server标签可以有多个Service服务实例
+    -->
+    <Service/>
+</Server>
+```
+
+### Server 标签
+
+```
+<!--
+port:关闭服务器的监听端口 shutdown:关闭服务器的指令字符串
+-->
+<Server port="8005" shutdown="SHUTDOWN">
+<!-- 以日志形式输出服务器 、操作系统、JVM的版本信息 -->
+<Listener className="org.apache.catalina.startup.VersionLoggerListener" /> <!-- Security listener. Documentation at /docs/config/listeners.html <Listener className="org.apache.catalina.security.SecurityListener" />
+-->
+<!--APR library loader. Documentation at /docs/apr.html -->
+<!-- 加载(服务器启动) 和 销毁 (服务器停止) APR。 如果找不到APR库， 则会输出日志， 并
+不影响 Tomcat启动 -->
+<Listener className="org.apache.catalina.core.AprLifecycleListener"
+SSLEngine="on" />
+<!-- Prevent memory leaks due to use of particular java/javax APIs--> <!-- 避免JRE内存泄漏问题 -->
+<Listener
+className="org.apache.catalina.core.JreMemoryLeakPreventionListener" /> <!-- 加载(服务器启动) 和 销毁(服务器停止) 全局命名服务 -->
+<Listener
+className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" /> <!-- 在Context停止时重建 Executor 池中的线程， 以避免ThreadLocal 相关的内存泄漏 -->
+<Listener
+className="org.apache.catalina.core.ThreadLocalLeakPreventionListener" />
+<!-- Global JNDI resources
+Documentation at /docs/jndi-resources-howto.html GlobalNamingResources 中定义了全局命名服务
+-->
+  <GlobalNamingResources>
+    <!-- Editable user database that can also be used by
+         UserDatabaseRealm to authenticate users
+-->
+    <Resource name="UserDatabase" auth="Container"
+              type="org.apache.catalina.UserDatabase"
+              description="User database that can be updated and saved"
+              factory="org.apache.catalina.users.MemoryUserDatabaseFactory"
+              pathname="conf/tomcat-users.xml" />
+  </GlobalNamingResources>
+  <!-- A "Service" is a collection of one or more "Connectors" that share
+       a single "Container" Note:  A "Service" is not itself a "Container",
+       so you may not define subcomponents such as "Valves" at this level.
+       Documentation at /docs/config/service.html
+-->
+  <Service name="Catalina">
+    ...
+  </Service>
+</Server>
+```
+
+### Service标签
+
+```
+
+<!--
+该标签用于创建 Service 实例，默认使用 org.apache.catalina.core.StandardService。 默认情况下，Tomcat 仅指定了Service 的名称， 值为 "Catalina"。
+Service 子标签为 : Listener、Executor、Connector、Engine，
+其中:
+Listener 用于为Service添加生命周期监听器，
+Executor 用于配置Service 共享线程池，
+Connector 用于配置Service 包含的链接器，
+Engine 用于配置Service中链接器对应的Servlet 容器引擎
+-->
+<Service name="Catalina">
+  ...
+</Service>
+```
+
+### Executor标签
+
+```
+<!--
+
+默认情况下，Service 并未添加共享线程池配置。 如果我们想添加一个线程池， 可以在 <Service> 下添加如下配置:
+name:线程池名称，用于 Connector中指定
+namePrefix:所创建的每个线程的名称前缀，一个单独的线程名称为 namePrefix+threadNumber
+maxThreads:池中最大线程数 minSpareThreads:活跃线程数，也就是核心池线程数，这些线程不会被销毁，会一直存在 maxIdleTime:线程空闲时间，超过该时间后，空闲线程会被销毁，默认值为6000(1分钟)，单位
+毫秒
+maxQueueSize:在被执行前最大线程排队数目，默认为Int的最大值，也就是广义的无限。除非特
+殊情况，这个值 不需要更改，否则会有请求不会被处理的情况发生 prestartminSpareThreads:启动线程池时是否启动 minSpareThreads部分线程。默认值为
+false，即不启动 threadPriority:线程池中线程优先级，默认值为5，值从1到10 className:线程池实现类，未指定情况下，默认实现类为
+org.apache.catalina.core.StandardThreadExecutor。如果想使用自定义线程池首先需要实现 org.apache.catalina.Executor接口
+-->
+<Executor name="commonThreadPool"
+    namePrefix="thread-exec-"
+    maxThreads="200"
+    minSpareThreads="100"
+    maxIdleTime="60000"
+    maxQueueSize="Integer.MAX_VALUE"
+    prestartminSpareThreads="false"
+    threadPriority="5"
+    className="org.apache.catalina.core.StandardThreadExecutor"/>
+```
+
+### Connector 标签
+
+用于创建连接器实例
+
+默认配置了两个连接器，一个支持http，一个支持AJP
+
+```
+
+<!-- port:
+端口号，Connector 用于创建服务端Socket 并进行监听， 以等待客户端请求链接。如果该属性设置 为0， Tomcat将会随机选择一个可用的端口号给当前Connector 使用
+protocol:
+当前Connector 支持的访问协议。 默认为 HTTP/1.1 ， 并采用自动切换机制选择一个基于 JAVA NIO 的链接器或者基于本地APR的链接器(根据本地是否含有Tomcat的本地库判定) connectionTimeOut:
+Connector 接收链接后的等待超时时间， 单位为 毫秒。 -1 表示不超时。 redirectPort:
+当前Connector 不支持SSL请求， 接收到了一个请求， 并且也符合security-constraint 约束， 需要SSL传输，Catalina自动将请求重定向到指定的端口。
+executor:
+指定共享线程池的名称， 也可以通过maxThreads、minSpareThreads 等属性配置内部线程池。
+URIEncoding:
+用于指定编码URI的字符编码， Tomcat8.x版本默认的编码为 UTF-8 , Tomcat7.x版本默认为ISO-
+8859-1
+-->
+<!--org.apache.coyote.http11.Http11NioProtocol ， 非阻塞式 Java NIO 链接器--> <Connector port="8080" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />
+<Connector port="8009" protocol="AJP/1.3" redirectPort="8443" />
+```
+
+使用共享线程池
+
+```
+<Connector port="8080"
+          protocol="HTTP/1.1"
+          executor="commonThreadPool"
+          maxThreads="1000"
+          minSpareThreads="100"
+          acceptCount="1000"
+          maxConnections="1000"
+          connectionTimeout="20000"
+          compression="on"
+          compressionMinSize="2048"
+          disableUploadTimeout="true"
+          redirectPort="8443"
+          URIEncoding="UTF-8" />
+```
+
+### Engine标签
+
+Engine表示Sevlet引擎
+
+```
+<!--
+name: 用于指定Engine 的名称， 默认为Catalina
+defaultHost:默认使用的虚拟主机名称， 当客户端请求指向的主机无效时， 将交由默认的虚拟主机处 理， 默认为localhost
+-->
+<Engine name="Catalina" defaultHost="localhost">
+...
+
+```
+
+### Host标签
+
+用于配置虚拟主机
+
+```
+<Host name="localhost"  appBase="webapps" unpackWARs="true" autoDeploy="true">
+    ...
+</Host>
+```
+### Context标签
+
+Context标签表示一个具体的Web应用
+
+```
+<Host name="www.abc.com"  appBase="webapps" unpackWARs="true"
+autoDeploy="true">
+<!--
+docBase:Web应用目录或者War包的部署路径。可以是绝对路径，也可以是相对于 Host appBase的 相对路径。
+path:Web应用的Context 路径。如果我们Host名为localhost， 则该web应用访问的根路径为: http://localhost:8080/web_demo。
+-->
+    <Valve className="org.apache.catalina.valves.AccessLogValve"
+directory="logs"
+</Host>
+```]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p class="auto-cursor-target"><br /></p>]]></string></value></member><member><name>title</name><value><string>Tomcat高级使用及原理</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819431</string></value></member><member><name>permalink</name><value><string>/x/54AM</string></value></member><member><name>postid</name><value><string>819431</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-06-10T13:57:46.734Z</string></value></member><member><name>description</name><value><string><![CDATA[<p>报错如下</p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="d2bf258a-4efa-4207-b283-fff9c29cc042"><ac:plain-text-body><![CDATA[Starting MySQL.2022-01-25T08:34:30.468353Z .
+ ERROR! The server quit without updating PID file (/var/run/mysqld/mysqld.pid).]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p>一般有两个命令，将文件拥有者变成mysql，然后赋予可读可写权限，就是755</p><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="4ee86ecd-20dd-46e8-b0a6-2d33549957c6"><ac:plain-text-body><![CDATA[➜  ~ sudo mkdir /var/run/mysqld
+➜  ~ sudo chown -R mysql:mysql /var/run/mysqld
+➜  ~ sudo chmod 755 /var/run/mysqld
+➜  ~ sudo /etc/init.d/mysqld start
+Starting MySQL. SUCCESS!
+➜  ~ ]]></ac:plain-text-body></ac:structured-macro><p><br /></p>]]></string></value></member><member><name>title</name><value><string>MySQL启动报错文件夹权限解决方案</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819440</string></value></member><member><name>permalink</name><value><string>/x/8IAM</string></value></member><member><name>postid</name><value><string>819440</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-18T20:23:34.454Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="e4839e02-9bd1-403a-9878-2e58870ddbee"><ac:plain-text-body><![CDATA[# 手写mini版Tomcat
+
+Minicat要做的事情:
+
+作为一个服务器软件提供服务的，也即我们可以通过浏览器客户端发送http请求， Minicat可以接收到请求进行处理，处理之后的结果可以返回浏览器客户端。
+1)提供服务，接收请求(Socket通信) 2)请求信息封装成Request对象(Response对象) 3)客户端请求资源，资源分为静态资源(html)和动态资源(Servlet) 4)资源返回给客户端浏览器
+
+## 1.0
+V1.0需求:浏览器请求http://localhost:8080,返回一个固定的字符串到⻚面"Hello Minicat!"
+
+## 2.0
+V2.0需求:封装Request和Response对象，返回html静态资源文件
+
+## 3.0
+V3.0需求:可以请求动态资源(Servlet)
+
+## 4.0
+V4.0需求:在已有Minicat基础上进一步扩展，模拟出webapps部署效果 磁盘上放置一个webapps目录，webapps中可以有多个项目，例如demo1、demo2、demo3... 每个项目中含有servlet，可以根据请求url定位对应servlet进一步处理。
+
+## 最终代码
+完成4.0版本之后，最终代码如下：
+
+### Bootstrap启动类
+
+```
+/**
+ * Minicat的主类
+ */
+public class Bootstrap {
+
+    /**
+     * 定义socket监听的端口号
+     */
+    private int port = 8080;
+
+    public int getPort() {
+        return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
+    }
+
+
+    /**
+     * Minicat启动需要初始化展开的一些操作
+     */
+    public void start() throws Exception {
+
+        // 加载解析相关的配置，web.xml
+        loadServlet();
+
+        // 解析server.xml，读取webapps路径
+        // 遍历webapps，每个应用通过单独设置类加载器（防止默认的类加载机制导致不同应用的相同class问题）
+        // 读取web.xml的servlet配置，生成servlet保存到servletMap
+        // 保存的key需要加上应用的前缀
+        loadWebapps();
+
+        System.out.println("全部加载完成，servletMap:" + servletMap);
+
+        // 定义一个线程池
+        int corePoolSize = 10;
+        int maximumPoolSize = 50;
+        long keepAliveTime = 100L;
+        TimeUnit unit = TimeUnit.SECONDS;
+        BlockingQueue<Runnable> workQueue = new ArrayBlockingQueue<>(50);
+        ThreadFactory threadFactory = Executors.defaultThreadFactory();
+        RejectedExecutionHandler handler = new ThreadPoolExecutor.AbortPolicy();
+
+
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(
+                corePoolSize,
+                maximumPoolSize,
+                keepAliveTime,
+                unit,
+                workQueue,
+                threadFactory,
+                handler
+        );
+
+
+        /*
+            完成Minicat 1.0版本
+            需求：浏览器请求http://localhost:8080,返回一个固定的字符串到页面"Hello Minicat!"
+         */
+        ServerSocket serverSocket = new ServerSocket(port);
+        System.out.println("=====>>>Minicat start on port：" + port);
+
+        /*while(true) {
+            Socket socket = serverSocket.accept();
+            // 有了socket，接收到请求，获取输出流
+            OutputStream outputStream = socket.getOutputStream();
+            String data = "Hello Minicat!";
+            String responseText = HttpProtocolUtil.getHttpHeader200(data.getBytes().length) + data;
+            outputStream.write(responseText.getBytes());
+            socket.close();
+        }*/
+
+
+        /**
+         * 完成Minicat 2.0版本
+         * 需求：封装Request和Response对象，返回html静态资源文件
+         */
+        /*while(true) {
+            Socket socket = serverSocket.accept();
+            InputStream inputStream = socket.getInputStream();
+
+            // 封装Request对象和Response对象
+            Request request = new Request(inputStream);
+            Response response = new Response(socket.getOutputStream());
+
+            response.outputHtml(request.getUrl());
+            socket.close();
+
+        }*/
+
+
+        /**
+         * 完成Minicat 3.0版本
+         * 需求：可以请求动态资源（Servlet）
+         */
+        /*while(true) {
+            Socket socket = serverSocket.accept();
+            InputStream inputStream = socket.getInputStream();
+
+            // 封装Request对象和Response对象
+            Request request = new Request(inputStream);
+            Response response = new Response(socket.getOutputStream());
+
+            // 静态资源处理
+            if(servletMap.get(request.getUrl()) == null) {
+                response.outputHtml(request.getUrl());
+            }else{
+                // 动态资源servlet请求
+                HttpServlet httpServlet = servletMap.get(request.getUrl());
+                httpServlet.service(request,response);
+            }
+
+            socket.close();
+
+        }
+*/
+
+        /*
+            多线程改造（不使用线程池）
+         */
+        /*while(true) {
+            Socket socket = serverSocket.accept();
+            RequestProcessor requestProcessor = new RequestProcessor(socket,servletMap);
+            requestProcessor.start();
+        }*/
+        // System.out.println("=========>>>>>>使用线程池进行多线程改造");
+        /*
+            多线程改造（使用线程池）
+         */
+        /*
+        while(true) {
+
+            Socket socket = serverSocket.accept();
+            RequestProcessor requestProcessor = new RequestProcessor(socket,servletMap);
+            //requestProcessor.start();
+            threadPoolExecutor.execute(requestProcessor);
+        }
+        */
+
+        /**
+         * 完成Minicat 4.0版本
+         * 需求：实现webapps部署，并支持多项目部署
+         */
+        while (true) {
+            Socket socket = serverSocket.accept();
+            RequestProcessor requestProcessor = new RequestProcessor(socket, servletMap);
+            threadPoolExecutor.execute(requestProcessor);
+        }
+    }
+
+    /**
+     * 加载解析server.xml，初始化webapps里面的servlet
+     */
+    private void loadWebapps() {
+        InputStream resourceAsStream = this.getClass().getClassLoader().getResourceAsStream("server.xml");
+        SAXReader saxReader = new SAXReader();
+
+        try {
+            Document document = saxReader.read(resourceAsStream);
+            Element element = document.getRootElement();
+
+            // 为了简单，暂不考虑多个host的情况，以单个host为例
+            List<Element> hosts = element.selectNodes("//Host");
+            // 未找到主机，不处理
+            if (null == hosts || hosts.size() == 0) {
+                return;
+            }
+
+            Element host = hosts.get(0);
+            String appBase = host.attributeValue("appBase");
+
+            // 找到appBase
+            String classPath = this.getClass().getResource(".").getFile();
+            String absoluteAppBase = Paths.get(classPath).getParent().getParent().getParent().toAbsolutePath().toString() + "/" + appBase;
+            File file = new File(absoluteAppBase);
+            if (!file.exists()) {
+                System.out.println("webapps目录不存在，将不会加载任何应用");
+                return;
+            }
+            System.out.println("准备从下面的目录加载webapps:" + absoluteAppBase + "\n");
+
+            File[] dirs = file.listFiles();
+
+            for (File dir : dirs) {
+                if (!dir.isDirectory()) {
+                    continue;
+                }
+
+                // 遍历每个应用
+                String appPath = "/" + dir.getName();
+
+                List<Element> contextList = host.elements();
+                for (Element context : contextList) {
+                    String docBase = context.attributeValue("docBase");
+                    if (!appPath.equals(docBase)) {
+                        continue;
+                    }
+
+                    String appPrefix = context.attributeValue("path");
+                    String absAppPath = absoluteAppBase + docBase;
+
+                    System.out.println("开始加载应用:" + appPrefix + ",应用路径:" + absAppPath);
+                    // 加载各个应用的servlet
+                    loadWebappsServlet(appPrefix, absAppPath);
+                }
+            }
+            System.out.println("加载webapps的servlet完成");
+        } catch (DocumentException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    private Map<String, HttpServlet> servletMap = new HashMap<String, HttpServlet>();
+
+    /**
+     * 加载解析web.xml，初始化Servlet
+     */
+    private void loadServlet() {
+        InputStream resourceAsStream = this.getClass().getClassLoader().getResourceAsStream("web.xml");
+        SAXReader saxReader = new SAXReader();
+
+        try {
+            Document document = saxReader.read(resourceAsStream);
+            Element rootElement = document.getRootElement();
+
+            List<Element> selectNodes = rootElement.selectNodes("//servlet");
+            for (int i = 0; i < selectNodes.size(); i++) {
+                Element element = selectNodes.get(i);
+                // <servlet-name>lagou</servlet-name>
+                Element servletnameElement = (Element) element.selectSingleNode("servlet-name");
+                String servletName = servletnameElement.getStringValue();
+                // <servlet-class>server.LagouServlet</servlet-class>
+                Element servletclassElement = (Element) element.selectSingleNode("servlet-class");
+                String servletClass = servletclassElement.getStringValue();
+
+
+                // 根据servlet-name的值找到url-pattern
+                Element servletMapping = (Element) rootElement.selectSingleNode("/web-app/servlet-mapping[servlet-name='" + servletName + "']");
+                // /lagou
+                String urlPattern = servletMapping.selectSingleNode("url-pattern").getStringValue();
+                servletMap.put(urlPattern, (HttpServlet) Class.forName(servletClass).newInstance());
+
+            }
+
+            System.out.println("加载servlet完成");
+        } catch (DocumentException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private void loadWebappsServlet(String appPrefix, String absAppPath) {
+        InputStream resourceAsStream = null;
+        try {
+            resourceAsStream = new FileInputStream(absAppPath + "/web.xml");
+
+            SAXReader saxReader = new SAXReader();
+
+            Document document = saxReader.read(resourceAsStream);
+            Element rootElement = document.getRootElement();
+
+            List<Element> selectNodes = rootElement.selectNodes("//servlet");
+            for (int i = 0; i < selectNodes.size(); i++) {
+                Element element = selectNodes.get(i);
+                // <servlet-name>lagou</servlet-name>
+                Element servletnameElement = (Element) element.selectSingleNode("servlet-name");
+                String servletName = servletnameElement.getStringValue();
+                // <servlet-class>server.LagouServlet</servlet-class>
+                Element servletclassElement = (Element) element.selectSingleNode("servlet-class");
+                String servletClass = servletclassElement.getStringValue();
+
+
+                // 根据servlet-name的值找到url-pattern
+                Element servletMapping = (Element) rootElement.selectSingleNode("/web-app/servlet-mapping[servlet-name='" + servletName + "']");
+                // /lagou
+                String urlPattern = servletMapping.selectSingleNode("url-pattern").getStringValue();
+
+                // 使用自定义的类加载器加载
+                MyClassLoader loader = new MyClassLoader(absAppPath, servletClass);
+                Class<?> aClass = loader.loadClass(servletClass);
+
+                // 注意：下面的会从默认的类加载器加载
+                //  Class<?> aClass = Class.forName(servletClass);
+
+                // 加载失败不添加
+                if (null == aClass) {
+                    continue;
+                }
+
+                servletMap.put(appPrefix + urlPattern, (HttpServlet) aClass.newInstance());
+
+            }
+
+            System.out.println("加载应用" + appPrefix + "的servlet完成\n");
+        } catch (DocumentException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    /**
+     * Minicat 的程序启动入口
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
+        Bootstrap bootstrap = new Bootstrap();
+        try {
+            // 启动Minicat
+            bootstrap.start();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### 自定义的ClassLoader
+
+```
+/**
+ * 自定义类加载器，主要用于应用的servlet加载
+ *
+ * @name: MyClassLoader
+ * @author: terwer
+ * @date: 2022-01-18 10:19
+ **/
+public class MyClassLoader extends ClassLoader {
+
+    private String absAppPath;
+    private String servletClass;
+
+    public MyClassLoader(String absAppPath, String servletClass) {
+        this.absAppPath = absAppPath;
+        this.servletClass = servletClass;
+    }
+
+    /**
+     * 通过指定全路径记载class文件
+     *
+     * @param name class文件路径（包名+class文件名）
+     * @return Class<?>
+     * @throws ClassNotFoundException
+     */
+    @Override
+    public Class<?> loadClass(String name) throws ClassNotFoundException {
+        // 这里要注意：如果不是servlet，需要使用双亲委派
+        // 因为应用里面会使用Minicat里面定义的类
+        // 而这些类没必要拷贝一份到应用里面
+        // 只有servlet才去跳过双亲委派
+        if (!name.equals(this.servletClass)) {
+            System.out.println("非servlet，不使用自定义类加载器:" + name);
+            Class<?> clazz = this.getClass().getClassLoader().loadClass(name);
+            return clazz;
+        }
+
+        String filePath = absAppPath + "/" + name.replaceAll("\\.", "/") + ".class";
+        String classFullPath = "file://" + filePath;
+        System.out.println("MyClassLoader开始加载:" + classFullPath);
+
+        byte[] classBytes = null;
+        Path path = null;
+
+        try {
+            path = Paths.get(new URI(classFullPath));
+            classBytes = Files.readAllBytes(path);
+        } catch (URISyntaxException | IOException e) {
+            e.printStackTrace();
+        }
+
+        Class<?> clazz = defineClass(name, classBytes, 0, classBytes.length);
+
+        return clazz;
+    }
+}
+```
+
+### http协议工具类
+
+```
+/**
+ * http协议工具类，主要是提供响应头信息，这里我们只提供200和404的情况
+ */
+public class HttpProtocolUtil {
+
+    /**
+     * 为响应码200提供请求头信息
+     * @return
+     */
+    public static String getHttpHeader200(long contentLength) {
+        return "HTTP/1.1 200 OK \n" +
+                "Content-Type: text/html \n" +
+                "Content-Length: " + contentLength + " \n" +
+                "\r\n";
+    }
+
+    /**
+     * 为响应码404提供请求头信息(此处也包含了数据内容)
+     * @return
+     */
+    public static String getHttpHeader404() {
+        String str404 = "<h1>404 not found</h1>";
+        return "HTTP/1.1 404 NOT Found \n" +
+                "Content-Type: text/html \n" +
+                "Content-Length: " + str404.getBytes().length + " \n" +
+                "\r\n" + str404;
+    }
+}
+```
+
+### Request封装类
+
+```
+/**
+ * 把请求信息封装为Request对象（根据InputSteam输入流封装）
+ */
+public class Request {
+
+    private String method; // 请求方式，比如GET/POST
+    private String url;  // 例如 /,/index.html
+
+    private InputStream inputStream;  // 输入流，其他属性从输入流中解析出来
+
+
+    public String getMethod() {
+        return method;
+    }
+
+    public void setMethod(String method) {
+        this.method = method;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public InputStream getInputStream() {
+        return inputStream;
+    }
+
+    public void setInputStream(InputStream inputStream) {
+        this.inputStream = inputStream;
+    }
+
+    public Request() {
+    }
+
+
+    // 构造器，输入流传入
+    public Request(InputStream inputStream) throws IOException {
+        this.inputStream = inputStream;
+
+        // 从输入流中获取请求信息
+        int count = 0;
+        while (count == 0) {
+            count = inputStream.available();
+        }
+
+        byte[] bytes = new byte[count];
+        inputStream.read(bytes);
+
+        String inputStr = new String(bytes);
+        // 获取第一行请求头信息
+        String firstLineStr = inputStr.split("\\n")[0];  // GET / HTTP/1.1
+
+        String[] strings = firstLineStr.split(" ");
+
+        this.method = strings[0];
+        this.url = strings[1];
+
+        System.out.println("=====>>method:" + method);
+        System.out.println("=====>>url:" + url);
+
+
+    }
+}
+```
+
+### Response封装类
+
+```
+/**
+ * 封装Response对象，需要依赖于OutputStream
+ *
+ * 该对象需要提供核心方法，输出html
+ */
+public class Response {
+
+    private OutputStream outputStream;
+
+    public Response() {
+    }
+
+    public Response(OutputStream outputStream) {
+        this.outputStream = outputStream;
+    }
+
+
+    // 使用输出流输出指定字符串
+    public void output(String content) throws IOException {
+        outputStream.write(content.getBytes());
+    }
+
+
+    /**
+     *
+     * @param path  url，随后要根据url来获取到静态资源的绝对路径，进一步根据绝对路径读取该静态资源文件，最终通过
+     *                  输出流输出
+     *              /-----> classes
+     */
+    public void outputHtml(String path) throws IOException {
+        // 获取静态资源文件的绝对路径
+        String absoluteResourcePath = StaticResourceUtil.getAbsolutePath(path);
+
+        // 输入静态资源文件
+        File file = new File(absoluteResourcePath);
+        if(file.exists() && file.isFile()) {
+            // 读取静态资源文件，输出静态资源
+            StaticResourceUtil.outputStaticResource(new FileInputStream(file),outputStream);
+        }else{
+            // 输出404
+            output(HttpProtocolUtil.getHttpHeader404());
+        }
+
+    }
+
+}
+```
+
+### 静态资源处理工具类
+
+```
+public class StaticResourceUtil {
+
+    /**
+     * 获取静态资源文件的绝对路径
+     * @param path
+     * @return
+     */
+    public static String getAbsolutePath(String path) {
+        String absolutePath = StaticResourceUtil.class.getResource("/").getPath();
+        return absolutePath.replaceAll("\\\\","/") + path;
+    }
+
+
+    /**
+     * 读取静态资源文件输入流，通过输出流输出
+     */
+    public static void outputStaticResource(InputStream inputStream, OutputStream outputStream) throws IOException {
+
+        int count = 0;
+        while(count == 0) {
+            count = inputStream.available();
+        }
+
+        int resourceSize = count;
+        // 输出http请求头,然后再输出具体内容
+        outputStream.write(HttpProtocolUtil.getHttpHeader200(resourceSize).getBytes());
+
+        // 读取内容输出
+        long written = 0 ;// 已经读取的内容长度
+        int byteSize = 1024; // 计划每次缓冲的长度
+        byte[] bytes = new byte[byteSize];
+
+        while(written < resourceSize) {
+            if(written  + byteSize > resourceSize) {  // 说明剩余未读取大小不足一个1024长度，那就按真实长度处理
+                byteSize = (int) (resourceSize - written);  // 剩余的文件内容长度
+                bytes = new byte[byteSize];
+            }
+
+            inputStream.read(bytes);
+            outputStream.write(bytes);
+
+            outputStream.flush();
+            written+=byteSize;
+        }
+    }
+}
+```
+### 动态资源请求
+
+#### Servlet
+
+```
+public interface Servlet {
+
+    void init() throws Exception;
+
+    void destory() throws Exception;
+
+    void service(Request request,Response response) throws Exception;
+}
+
+```
+
+#### HttpServlet
+
+```
+public abstract class HttpServlet implements Servlet{
+
+
+    public abstract void doGet(Request request,Response response);
+
+    public abstract void doPost(Request request,Response response);
+
+
+    @Override
+    public void service(Request request, Response response) throws Exception {
+        if("GET".equalsIgnoreCase(request.getMethod())) {
+            doGet(request,response);
+        }else{
+            doPost(request,response);
+        }
+    }
+}
+```
+
+#### 业务类LagouServlet
+
+```
+public class LagouServlet extends HttpServlet {
+    @Override
+    public void doGet(Request request, Response response) {
+
+
+        // try {
+        //     Thread.sleep(100000);
+        // } catch (InterruptedException e) {
+        //     e.printStackTrace();
+        // }
+        String content = "<h1>LagouServlet get</h1>";
+        try {
+            response.output((HttpProtocolUtil.getHttpHeader200(content.getBytes().length) + content));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void doPost(Request request, Response response) {
+        String content = "<h1>LagouServlet post</h1>";
+        try {
+            response.output((HttpProtocolUtil.getHttpHeader200(content.getBytes().length) + content));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void init() throws Exception {
+
+    }
+
+    @Override
+    public void destory() throws Exception {
+
+    }
+}
+```
+
+#### 多线程版RequestProcessor
+
+```
+public class RequestProcessor extends Thread {
+
+    private Socket socket;
+    private Map<String,HttpServlet> servletMap;
+
+    public RequestProcessor(Socket socket, Map<String, HttpServlet> servletMap) {
+        this.socket = socket;
+        this.servletMap = servletMap;
+    }
+
+    @Override
+    public void run() {
+        try{
+            InputStream inputStream = socket.getInputStream();
+
+            // 封装Request对象和Response对象
+            Request request = new Request(inputStream);
+            Response response = new Response(socket.getOutputStream());
+
+            // 静态资源处理
+            if(servletMap.get(request.getUrl()) == null) {
+                response.outputHtml(request.getUrl());
+            }else{
+                // 动态资源servlet请求
+                HttpServlet httpServlet = servletMap.get(request.getUrl());
+                httpServlet.service(request,response);
+            }
+
+            socket.close();
+
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+}
+```
+
+### 完整代码地址
+
+https://gitee.com/youweics/Minicat
+
+# Tomcat源码剖析
+
+## Tomcat源码构建
+
+下载源码
+
+https://tomcat.apache.org/download-80.cgi
+
+https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.73/src/apache-tomcat-8.5.73-src.tar.gz
+
+## 源码导入准备
+
+1. 解压源码，在 apache-tomcat-8.5.73-src 目录创建一个 pom.xml 文件，内容如下
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVer
+<!--引入编译插件--> <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+<!--tomcat 依赖的基础包-->
+<dependencies>
+        <dependency>
+            <groupId>org.easymock</groupId>
+            <artifactId>easymock</artifactId>
+            <version>3.4</version>
+        </dependency>
+        <dependency>
+            <groupId>ant</groupId>
+            <artifactId>ant</artifactId>
+<version>1.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>wsdl4j</groupId>
+            <artifactId>wsdl4j</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml</groupId>
+            <artifactId>jaxrpc</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jdt.core.compiler</groupId>
+            <artifactId>ecj</artifactId>
+            <version>4.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml.soap</groupId>
+            <artifactId>javax.xml.soap-api</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+    </dependencies>
+</project>
+```
+
+1. 在 apache-tomcat-8.5.73-src 目录中创建 source 文件夹
+
+2. 将 conf、webapps 目录移动到刚刚创建的 source 文件夹中
+
+## 将源码工程导入到 IDEA 中
+给 tomcat 的源码程序启动类 Bootstrap 配置 VM 参数，因为 tomcat 源码运行也需要加载配置文 件等。
+
+```
+-Dcatalina.home=/Users/terwer/Documents/code/tomcat8/apache-tomcat-8.5.73-src/source
+-Dcatalina.base=/Users/terwer/Documents/code/tomcat8/apache-tomcat-8.5.73-src/source
+-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+-Djava.util.logging.config.file=/Users/terwer/Documents/code/tomcat8/apache-tomcat-8.5.73-src/source/conf/logging.properties
+```
+
+解决 JSP 编译错误
+
+需要在tomcat的源码ContextConfig类中 的configureStart方法中增加一行代码将 Jsp 引擎初始化
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200739503-2083699256.jpg&w=500&h=500)
+
+重启Tomcat。
+
+## Tomcat核心流程源码剖析
+
+### 生命周期
+
+Tomcat中的各容器组件都会涉及创建、销毁等，因此设计了生命周期接口Lifecycle进行统一规范，各容 器组件实现该接口。
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200738140-1192478187.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200739499-1614080224.jpg&w=500&h=500)
+
+Lifecycle生命周期接口继承体系示意图
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200738152-2115876949.jpg&w=500&h=500)
+
+### 核心源码
+
+主要关注Tomcat启动流程和Tomcat请求处理流程
+
+#### Tomcat启动流程
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740264-1427327271.jpg&w=500&h=500)
+
+#### Tomcat请求处理流程
+
+请求处理流程分析
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740264-2063317258.jpg&w=500&h=500)
+
+请求处理流程示意图
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200738312-257029955.jpg&w=500&h=500)
+
+Tomcat Mapper组件的体系结构
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200738100-2041995646.jpg&w=500&h=500)
+
+# Tomcat类加载机制剖析
+
+Java类(.java)—> 字节码文件(.class) —> 字节码文件需要被加载到jvm内存当中(这个过程就是一个 类加载的过程)
+
+类加载器(ClassLoader，说白了也是一个类，jvm启动的时候先把类加载器读取到内存当中去，其他的 类(比如各种jar中的字节码文件，自己开发的代码编译之后的.class文件等等))
+
+要熟悉Tomcat的类加载机制，首先的熟悉JVM的类加载机制，因为Tomcat是运行在JVM之上的
+
+## JVM类加载机制
+
+JVM 的类加载机制中有一个非常重要的⻆色叫做类加载器(ClassLoader)，类加载器有自己的体系， Jvm内置了几种类加载器，包括:引导类加载器、扩展类加载器、系统类加载器，他们之间形成父子关 系，通过 Parent 属性来定义这种关系，最终可以形成树形结构。
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200738179-612325880.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740305-1198696680.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740262-146219585.jpg&w=500&h=500)
+
+
+用户可以自定义类加载器，用于加载特定目录下的class文件
+
+当 JVM 运行过程中，用户自定义了类加载器去加载某些类时，会按照下面的步骤(父类委托机制)
+
+  1) 用户自己的类加载器，把加载请求传给父加载器，父加载器再传给其父加载器，一直到加载器 树的顶层
+
+  2) 最顶层的类加载器首先针对其特定的位置加载，如果加载不到就转交给子类
+
+  3) 如果一直到底层的类加载都没有加载到，那么就会抛出异常 ClassNotFoundException
+
+  因此，按照这个过程可以想到，如果同样在 classpath 指定的目录中和自己工作目录中存放相同的 class，会优先加载 classpath 目录中的文件
+
+## 双亲委派机制
+
+### 什么是双亲委派机制
+
+当某个类加载器需要加载某个.class文件时，它首先把这个任务委托给他的上级类加载器，递归这个操
+作，如果上级的类加载器没有加载，自己才会去加载这个类。
+
+### 双亲委派机制的作用
+
+防止重复加载同一个.class。通过委托去向上面问一问，加载过了，就不用再加载一遍。保证数据
+安全。
+
+保证核心.class不能被篡改。通过委托方式，不会去篡改核心.class，即使篡改也不会去加载，即使 加载也不会是同一个.class对象了。不同的加载器加载同一个.class也不是同一个.class对象。这样保证了class执行安全(如果子类加载器先加载，那么我们可以写一些与java.lang包中基础类同名的类， 然后再定义一个子类加载器，这样整个应用使用的基础类就都变成我们自己定义的类了。 )
+Object类 -----> 自定义类加载器(会出现问题的，那么真正的Object类就可能被篡改了)
+
+## Tomcat的类加载机制
+
+Tomcat 的类加载机制相对于 Jvm 的类加载机制做了一些改变。 没有严格的遵从双亲委派机制，也可以说打破了双亲委派机制
+
+比如:有一个tomcat，webapps下部署了两个应用
+
+app1/lib/a-1.0.jar com.lagou.edu.Abc
+
+app2/lib/a-2.0.jar com.lagou.edu.Abc
+
+不同版本中Abc类的内容是不同的，代码是不一样的
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740824-1642235319.jpg&w=500&h=500)
+
+1. 引导类加载器 和 扩展类加载器 的作用不变
+2. 系统类加载器正常情况下加载的是 CLASSPATH 下的类，但是 Tomcat 的启动脚本并未使用该变 量，而是加载tomcat启动的类，比如bootstrap.jar，通常在catalina.bat或者catalina.sh中指定。 位于CATALINA_HOME/bin下
+3. Common 通用类加载器加载Tomcat使用以及应用通用的一些类，位于CATALINA_HOME/lib下， 比如servlet-api.jar
+4. Catalina ClassLoader 用于加载服务器内部可⻅类，这些类应用程序不能访问 Shared ClassLoader 用于加载应用程序共享类，这些类服务器不会依赖
+5. Webapp ClassLoader，每个应用程序都会有一个独一无二的Webapp ClassLoader，他用来加载 本应用程序 /WEB-INF/classes 和 /WEB-INF/lib 下的类。
+> tomcat 8.5 默认改变了严格的双亲委派机制
+
+> 首先从 Bootstrap Classloader 加载指定的类 如果未加载到，则从 /WEB-INF/classes 加载 如果未加载到，则从 /WEB-INF/lib/*.jar 加载
+
+> 如果未加载到，则依次从 System、Common、Shared 加载(在这最后一步，遵从双亲委派机制)
+
+# Tomcat对https的支持
+
+## https简介
+
+Http超文本传输协议，明文传输 ，传输不安全，https在传输数据的时候会对数据进行加密 ssl协议
+TLS(transport layer security)协议
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740263-1661914781.jpg&w=500&h=500)
+
+### https和http的区别
+
+HTTPS协议使用时需要到电子商务认证授权机构(CA)申请SSL证书
+
+HTTP默认使用8080端口，HTTPS默认使用8443端口
+
+HTTPS则是具有SSL加密的安全性传输协议，对数据的传输进行加密，效果上相当于HTTP的升级版
+
+HTTP的连接是无状态的，不安全的;
+
+HTTPS协议是由SSL+HTTP协议构建的可进行加密传输、身份认证的网络协议，比HTTP协议安全
+
+### https的工作原理
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740275-285250377.jpg&w=500&h=500)
+
+## Tomcat对https的支持
+
+1、使用 JDK 中的 keytool 工具生成免费的秘钥库文件(证书)
+
+```
+keytool -genkey -alias terwer -keyalg RSA -keystore terwer.keystore
+```
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740263-274342170.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200738306-1089003635.jpg&w=500&h=500)
+
+2、配置 conf/server.xml
+
+```
+<Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+    maxThreads="150" schema="https" secure="true" SSLEnabled="true">
+    <SSLHostConfig>
+        <Certificate
+certificateKeystoreFile="/Users/terwer/Documents/code/tomcat8/apache-tomcat-8.5.73/conf/terwer.keystore" certificateKeystorePassword="123456"  type="RSA"
+/>
+    </SSLHostConfig>
+</Connector>
+```
+
+3、使用https协议访问8443端口(https://localhost:8443)。
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200738320-1295576902.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740308-1199513315.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740780-485253013.jpg&w=500&h=500)
+
+# Tomcat的性能优化策略
+
+系统性能的衡量指标，主要是响应时间和吞吐量。
+
+1) 响应时间:执行某个操作的耗时;
+
+2) 吞吐量:系统在给定时间内能够支持的事务数量，单位为TPS(Transactions PerSecond的缩写，也 就是事务数/秒，一个事务是指一个客户机向服务器发送请求然后服务器做出反应的过程。
+
+Tomcat优化从两个方面进行
+
+1)JVM虚拟机优化(优化内存模型)
+2)Tomcat自身配置的优化(比如是否使用了共享线程池?IO模型?)
+
+具体的效果需要根据生产环境调整到合适的参数
+
+## 虚拟机运行优化
+
+Java 虚拟机的运行优化主要是内存分配和垃圾回收策略的优化:
+
+*   内存直接影响服务的运行效率和吞吐量
+
+*   垃圾回收机制会不同程度地导致程序运行中断(垃圾回收策略不同，垃圾回收次数和回收效率都是
+*   不同的)
+
+Java虚拟机相关参数
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740824-905394955.jpg&w=500&h=500)
+
+JVM内存模型
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200739501-1216949050.jpg&w=500&h=500)
+
+参数调整实例
+
+```
+ JAVA_OPTS="-server -Xms2048m -Xmx2048m -XX:MetaspaceSize=256m -
+XX:MaxMetaspaceSize=512m"
+```
+
+利用内存工具查看
+
+```
+ps -ef|grep tomcat
+jhsdb jmap --heap --pid 21336
+```
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200741149-598608480.jpg&w=500&h=500)
+
+## 垃圾回收策略(GC策略)
+
+### 垃圾回收性能指标
+
+吞吐量:工作时间(排除GC时间)占总时间的百分比， 工作时间并不仅是程序运行的时间，还包 含内存分配时间。
+
+暂停时间:由垃圾回收导致的应用程序停止响应次数/时间。
+
+### 垃圾收集器
+
+1、串行收集器(Serial Collector)
+
+单线程执行所有的垃圾回收工作， 适用于单核CPU服务器 工作进程-----|(单线程)垃圾回收线程进行垃圾收集|---工作进程继续
+
+2、并行收集器(Parallel Collector)
+
+工作进程-----|(多线程)垃圾回收线程进行垃圾收集|---工作进程继续
+
+又称为吞吐量收集器(关注吞吐量)， 以并行的方式执行年轻代的垃圾回收， 该方式可以显著降 低垃圾回收的开销(指多条垃圾收集线程并行工作，但此时用户线程仍然处于等待状态)。适用于多 处理器或多线程硬件上运行的数据量较大的应用
+
+3、并发收集器(Concurrent Collector)
+
+以并发的方式执行大部分垃圾回收工作，以缩短垃圾回收的暂停时间。适用于那些响应时间优先于 吞吐量的应用， 因为该收集器虽然最小化了暂停时间(指用户线程与垃圾收集线程同时执行,但不一 定是并行的，可能会交替进行)， 但是会降低应用程序的性能
+
+4、CMS收集器(Concurrent Mark Sweep Collector)
+
+并发标记清除收集器， 适用于那些更愿意缩短垃圾回收暂停时间并且负担的起与垃圾回收共享处
+理器资源的应用
+
+5、G1收集器(Garbage-First Garbage Collector)
+
+适用于大容量内存的多核服务器， 可以在满足垃圾回收暂停时间目标的同时， 以最大可能性实现 高吞吐量( JDK1.7之后)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740597-1843854698.jpg&w=500&h=500)
+
+调整垃圾收集器
+
+```
+JAVA_OPTS="-XX:+UseConcMarkSweepGC"
+```
+
+命令行打开 jconsole ，可以看到 jdk11 默认是 G1收集器
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740600-457115931.jpg&w=500&h=500)
+
+调整之后
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118200740780-1585031557.jpg&w=500&h=500)
+
+## Tomcat配置调优
+
+Tomcat自身相关配置
+
+1、调整线程池
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118201742357-656409120.jpg&w=500&h=500)
+
+2、调整连接器
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118201742536-1955193913.jpg&w=500&h=500)
+
+3、禁用 AJP 连接器
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118201742300-193932424.jpg&w=500&h=500)
+
+
+4、调整I/O模式
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220118201742386-1883197867.jpg&w=500&h=500)
+
+可尝试使用 Apr IO模型，这个Apache底层库，依赖操作系统底层实现，性能较高
+
+5、动静分离
+
+可以使用Nginx+Tomcat相结合的部署方案，Nginx负责静态资源访问，Tomcat负责Jsp等动态资 源访问处理(因为Tomcat不擅⻓处理静态资源)。]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p><br /></p>]]></string></value></member><member><name>title</name><value><string>Tomcat源码剖析与调优</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819448</string></value></member><member><name>permalink</name><value><string>/x/_IAM</string></value></member><member><name>postid</name><value><string>819448</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-24T13:15:31.186Z</string></value></member><member><name>description</name><value><string><![CDATA[<p>安装 openEuler 的教程在这里</p><p><a href="https://www.cnblogs.com/thepoy/p/15405778.html">https://www.cnblogs.com/thepoy/p/15405778.html</a></p><p><br /></p><p>ssh链接</p><p><a href="https://blog.csdn.net/weixin_44465434/article/details/118340664">https://blog.csdn.net/weixin_44465434/article/details/118340664</a></p><p><br /></p><p>开放80端口，默认openEuler有防火墙，外部不能访问虚拟机的端口</p><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="81239b18-48a1-46d9-be40-c75325eda69e"><ac:parameter ac:name="linenumbers">true</ac:parameter><ac:plain-text-body><![CDATA[sudo /sbin/iptables -I INPUT -p tcp --dport 80 -j ACCEPT  ]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><h2><span>VMware+openEuler实用配置指南</span></h2><p><br /></p><p><span><a href="https://www.codeleading.com/article/22145940271/">https://www.codeleading.com/article/22145940271/</a></span></p>]]></string></value></member><member><name>title</name><value><string>VMWare Fushion 安装 openEuler</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819457</string></value></member><member><name>permalink</name><value><string>/x/AYEM</string></value></member><member><name>postid</name><value><string>819457</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-25T18:15:43.566Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="eefb39c3-24f0-4020-97d5-f37f76a963a3"><ac:plain-text-body><![CDATA[
+# 官方源
+参考链接：https://mirror.rockylinux.org/mirrormanager/mirrors
+
+# 国内源
+后续将逐步追加相关国内源信息。
+
+机构	链接	支持类型	带宽	备注
+南京大学	mirrors.nju.edu.cn	http https rsync	10000
+上海交通大学	mirrors.sjtug.sjtu.edu.cn	https rsync	1000
+山东大学	mirrors.sdu.edu.cn	http https	1000
+
+# 替换为国内源
+```
+sudo sed -e 's|^mirrorlist=|#mirrorlist=|g' \
+    -e 's|^#baseurl=http://dl.rockylinux.org/$contentdir|baseurl=https://mirrors.ustc.edu.cn/rocky|g' \
+    -i.bak \
+    /etc/yum.repos.d/Rocky-AppStream.repo \
+    /etc/yum.repos.d/Rocky-BaseOS.repo \
+    /etc/yum.repos.d/Rocky-Extras.repo \
+    /etc/yum.repos.d/Rocky-PowerTools.repo
+
+# 生成缓存
+sudo dnf makecache
+```
+http://chinanet.mirrors.ustc.edu.cn/help/rocky.html
+# 安装 neofetch
+
+```
+sudo curl -s https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch -o /usr/bin/neofetch
+# 国内
+sudo curl -s https://gitee.com/mirrors/neofetch/neofetch -o /usr/bin/neofetch
+sudo chmod +x /usr/bin/neofetch
+```]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p class="auto-cursor-target"><br /></p>]]></string></value></member><member><name>title</name><value><string>RockyLinux必备脚本</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819462</string></value></member><member><name>permalink</name><value><string>/x/BoEM</string></value></member><member><name>postid</name><value><string>819462</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-02-08T15:44:41.830Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="1376df7a-233d-4c97-9569-c696c539cc87"><ac:plain-text-body><![CDATA[```
+brew install iproute2mac
+```
+
+MacOS使用brew无法安装Python_无法安装gdbm_无法安装autojump
+
+解决
+
+https://blog.csdn.net/liaowenxiong/article/details/120998534
+
+]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p class="auto-cursor-target"><br /></p>]]></string></value></member><member><name>title</name><value><string>Mac安装iproute2/dig/traceroute</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819469</string></value></member><member><name>permalink</name><value><string>/x/DYEM</string></value></member><member><name>postid</name><value><string>819469</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-24T14:00:30.289Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="414c5ea8-f06c-40c0-b3a0-23bd67979065"><ac:plain-text-body><![CDATA[安装ssh服务
+```
+yum install openssh-server
+```
+
+查看当前ssh状态
+```
+service sshd status
+```
+
+开启ssh服务
+```
+service sshd start
+```
+
+还需要查看 `iptables` 是否关闭，不然别的ip无法连接到此服务器
+```
+systemctl stop iptables
+```]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p><br /></p>]]></string></value></member><member><name>title</name><value><string>Fedora检测与配置ssh</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819478</string></value></member><member><name>permalink</name><value><string>/x/FoEM</string></value></member><member><name>postid</name><value><string>819478</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-19T00:03:17.765Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="5e666726-9c2f-4442-b2d2-2a3a4b6df604"><ac:plain-text-body><![CDATA[```
+lsof -i tcp:8080
+```]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p><br /></p><p class="auto-cursor-target"><br /></p>]]></string></value></member><member><name>title</name><value><string>Mac查看8080端口是否被占用</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819485</string></value></member><member><name>permalink</name><value><string>/x/HYEM</string></value></member><member><name>postid</name><value><string>819485</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-25T18:09:22.339Z</string></value></member><member><name>description</name><value><string><![CDATA[<p><a href="https://www.jianshu.com/p/6b47198fd430">https://www.jianshu.com/p/6b47198fd430</a></p>]]></string></value></member><member><name>title</name><value><string>oh-my-zsh国内镜像安装和更新方法</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819494</string></value></member><member><name>permalink</name><value><string>/x/JoEM</string></value></member><member><name>postid</name><value><string>819494</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-19T01:45:23.591Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="dff752fa-f768-4cb3-b1a3-bb637bd7542a"><ac:plain-text-body><![CDATA[# Nginx基础
+
+## 什么是nginx
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014112183-720041123.jpg&w=500&h=500)
+
+Nginx 是一个高性能的HTTP和反向代理web服务器，核心特点是占有内存少，并发能力强
+
+## Nginx得到应用场景
+
+1、Http服务器(Web服务器)
+
+性能非常高，非常注重效率，能够经受高负载的考验。
+
+支持50000个并发连接数，不仅如此，CPU和内存的占用也非常的低，10000个没有活动的连接才占用2.5M的内存。
+
+2、反向代理服务器
+
+正向代理
+
+在浏览器中配置代理服务器的相关信息，通过代理服务器访问目标网站，代理服务器收到目标网站的响应之后，会把响应信息返回给我们自己的浏览器客户端
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110659-1636529736.jpg&w=500&h=500)
+
+
+反向代理
+
+浏览器客户端发送请求到反向代理服务器(比如Nginx)，由反向代理服务器选择原始服务器提供服务获取结果响应，最终再返回给客户端浏览器
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110794-1155073345.jpg&w=500&h=500)
+
+3、负载均衡服务器
+
+负载均衡，当一个请求到来的时候(结合上图)，Nginx反向代理服务器根据请求去找到一个原始服务器来处理当前请求，那么这叫做反向代理。那么，如果目标服务器有多台(比如上图中的tomcat1，tomcat2，tomcat3...)，找哪一个目标服务器来处理当前请求呢，这样一个寻找确定的过程就叫做负载均衡。
+
+负载均衡就是为了解决高负载的问题。
+
+4、动静分离
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014111049-2045150282.jpg&w=500&h=500)
+
+## Nginx 的特点
+跨平台:Nginx可以在大多数类unix操作系统上编译运行，而且也有windows版本。Nginx的上手非常容易，配置也比较简单
+
+高并发，性能好
+
+稳定性也特别好，宕机概率很低
+
+## Nginx的安装
+
+上传nginx安装包到linux服务器，nginx安装包(.tar文件)
+
+本地虚拟机使用 openEuler
+
+PS：centos8以后停止维护( https://centos.org/news-and-events/1322-october-centos-dojo-videos/ )，可以使用华为开源的 openEuler 代替。也可以使用 https://rockylinux.org/ （还在开发中，目前8.5）
+
+https://repo.openeuler.org/openEuler-20.03-LTS-SP3/ISO/x86_64/openEuler-20.03-LTS-SP3-x86_64-dvd.iso
+
+安装openEuler
+
+https://www.cnblogs.com/thepoy/p/15405778.html
+
+Nginx下载地址: http://nginx.org
+
+最新稳定版是 1.20.2
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110667-297118141.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110797-2026766299.jpg&w=500&h=500)
+
+安装Nginx依赖，pcre、openssl、gcc、zlib(推荐使用yum源自动安装)
+
+```
+yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel
+```
+
+解包Nginx软件包
+
+```
+tar -xvf nginx-1.20.2.tar.gz
+```
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014112321-568220778.jpg&w=500&h=500)
+
+进入解压之后的目录 nginx-1.20.2
+
+```
+cd nginx-1.20.2
+```
+
+命令行执行 `./configure`
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014111202-1925577662.jpg&w=500&h=500)
+
+命令行执行 `make`
+
+命令行执行 `make install` ，完毕之后在 `/usr/local/` 下会产生一个nginx目录
+
+进入sbin目录中，执行启动nginx命令
+
+```
+cd nginx/sbin
+./nginx
+```
+
+结果如下
+
+```
+[terwer@localhost nginx-1.20.2]$ cd /usr/local
+[terwer@localhost local]$ ls
+bin  etc  games  include  lib  lib64  libexec  nginx  sbin  share  src
+[terwer@localhost local]$ cd nginx/sbin
+[terwer@localhost sbin]$ ls
+nginx
+[terwer@localhost sbin]$ sudo ./nginx
+[terwer@localhost sbin]$
+```
+
+然后访问服务器的80端口(nginx默认监听80端口)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110925-1018618573.jpg&w=500&h=500)
+
+外部浏览器验证
+
+```
+# 通过下面的命令找到 openEuler 的ip
+ip addr
+```
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110701-245857199.jpg&w=500&h=500)
+
+## Nginx的主要命令
+
+`./nginx` 启动nginx
+
+`./nginx -s stop` 终止nginx(当然也可以找到nginx进程号，然后使用kill -9 杀掉nginx进程)
+
+`./nginx -s reload` (重新加载nginx.conf配置文件)
+
+# Nginx核心配置文件
+
+Nginx的核心配置文件 `conf/nginx.conf` 包含三块内容:全局块、events块、http块
+
+## 全局块
+
+从配置文件开始到events块之间的内容，此处的配置影响nginx服务器整体的运行，比如worker进程的数量、错误日志的位置等
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110707-1358742107.jpg&w=500&h=500)
+
+## events块
+
+events块主要影响nginx服务器与用户的网络连接，比如worker_connections 1024，标识每个
+workderprocess支持的最大连接数为1024
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110440-1060258385.jpg&w=500&h=500)
+
+## http块
+
+http块是配置最频繁的部分，虚拟主机的配置，监听端口的配置，请求转发、反向代理、负载均衡 等
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110917-86635039.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014111053-815112286.jpg&w=500&h=500)
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014111160-1618485384.jpg&w=500&h=500)
+
+# 反向代理
+
+## 需求一
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014112413-568109228.jpg&w=500&h=500)
+
+## 需求一实现
+
+部署tomcat，保持默认监听8080端口
+
+修改nginx配置，并重新加载
+
+修改nginx配置
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110644-541839245.jpg&w=500&h=500)
+
+
+重新加载nginx配置
+
+./nginx -s reload
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110992-300175064.jpg&w=500&h=500)
+
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110952-145473907.jpg&w=500&h=500)
+
+
+## 需求二实现
+
+再部署一台tomcat，保持默认监听8081端口
+
+修改nginx配置，并重新加载
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110748-1823515169.jpg&w=500&h=500)
+
+这里主要就是多location的使用，这里的nginx中server/location就好比tomcat中的 Host/Context
+
+location 语法如下:
+
+```
+location [=|~|~*|^~] /uri/ { ... }
+```
+
+在nginx配置文件中，location主要有这几种形式:
+
+1)正则匹配 location ~/lagou { }
+
+2)不区分大小写的正则匹配 location ~*/lagou { }
+
+3)匹配路径的前缀 location ^~/lagou { }
+
+4)精确匹配 location = /lagou { }
+
+5)普通路径前缀匹配 location /lagou { }
+
+优先级 4>3>2>1>5
+
+# 负载均衡
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014111073-1818562537.jpg&w=500&h=500)
+
+## Nginx负载均衡策略
+
+### 轮询
+
+默认策略，每个请求按时间顺序逐一分配到不同的服务器，如果某一个服务器下线，能自动剔除
+
+```
+upstream lagouServer{
+  server 111.229.248.243:8080;
+  server 111.229.248.243:8082;
+}
+location /abc {
+  proxy_pass http://lagouServer/;
+}
+```
+
+### weight
+
+weight代表权重，默认每一个负载的服务器都为1，权重越高那么被分配的请求越多(用于服务器
+性能不均衡的场景)
+
+```
+upstream lagouServer{
+  server 111.229.248.243:8080 weight=1;
+  server 111.229.248.243:8082 weight=2;
+}
+```
+
+### ip_hash
+
+每个请求按照ip的hash结果分配，每一个客户端的请求会固定分配到同一个目标服务器处理，可
+以解决session问题
+
+```
+upstream lagouServer{
+  ip_hash;
+  server 111.229.248.243:8080;
+  server 111.229.248.243:8082;
+}
+```
+
+# 动静分离
+
+动静分离就是讲动态资源和静态资源的请求处理分配到不同的服务器上，比较经典的组合就是 Nginx+Tomcat架构(Nginx处理静态资源请求，Tomcat处理动态资源请求)，那么其实之前的讲解 中，Nginx反向代理目标服务器Tomcat，我们能看到目标服务器ROOT项目的index.jsp，这本身就是 Tomcat在处理动态资源请求了。
+
+所以，我们只需要配置静态资源访问即可。
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014111105-2110341179.jpg&w=500&h=500)
+
+# Nginx底层机制剖析
+
+Nginx启动后，以daemon多进程方式在后台运行，包括一个Master进程和多个Worker进程，Master
+进程是领导，是老大，Worker进程是干活的小弟。
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110748-1222922170.jpg&w=500&h=500)
+
+## master进程
+
+主要是管理worker进程，比如:
+接收外界信号向各worker进程发送信号(./nginx -s reload) 监控worker进程的运行状态，当worker进程异常退出后Master进程会自动重新启动新的worker进程等
+
+## worker进程
+
+worker进程具体处理网络请求。多个worker进程之间是对等的，他们同等竞争来自客户端的请求，各进程互相之间是独立的。一个请求，只可能在一个worker进程中处理，一个worker进程， 不可能处理其它进程的请求。worker进程的个数是可以设置的，一般设置与机器cpu核数一致。
+
+## Nginx进程模型
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014111110-590669850.jpg&w=500&h=500)
+
+以 ./nginx -s reload 来说明nginx信号处理这部分
+
+1)master进程对配置文件进行语法检查
+
+2)尝试配置(比如修改了监听端口，那就尝试分配新的监听端口)
+
+3)尝试成功则使用新的配置，新建worker进程
+
+4)新建成功，给旧的worker进程发送关闭消息
+
+5)旧的worker进程收到信号会继续服务，直到把当前进程接收到的请求处理完毕后关闭，所以reload之后worker进程pid是发生了变化的
+
+![](https://images.weserv.nl/?url=https://img2020.cnblogs.com/blog/236099/202201/236099-20220119014110916-225508294.jpg&w=500&h=500)
+
+## worker进程处理请求部分的说明
+
+例如，我们监听9003端口，一个请求到来时，如果有多个worker进程，那么每个worker进程都有
+可能处理这个链接。
+
+master进程创建之后，会建立好需要监听的的socket，然后从master进程再fork出多个worker进程。所以，所有worker进程的监听描述符listenfd在新连接到来时都变得可读。
+
+nginx使用互斥锁来保证只有一个workder进程能够处理请求，拿到互斥锁的那个进程注册listenfd读事件，在读事件里调用accept接受该连接，然后解析、处理、返回客户端
+
+## nginx多进程模型好处
+
+每个worker进程都是独立的，不需要加锁，节省开销
+
+每个worker进程都是独立的，互不影响，一个异常结束，其他的照样能提供服务
+
+多进程模型为reload热部署机制提供了支撑]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p><br /></p>]]></string></value></member><member><name>title</name><value><string>Nginx原理深入剖析</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819498</string></value></member><member><name>permalink</name><value><string>/x/KoEM</string></value></member><member><name>postid</name><value><string>819498</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-20T11:06:39.041Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="c1558f5d-e71b-45f1-b58f-ac17ec942a64"><ac:plain-text-body><![CDATA[```
+# 不但跳过单元测试的运行，也跳过测试代码的编译。
+mvn package -Dmaven.test.skip=true
+# 跳过单元测试，但是会继续编译
+mvn package -DskipTests
+```]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p class="auto-cursor-target"><br /></p>]]></string></value></member><member><name>title</name><value><string>maven打包跳过测试</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819505</string></value></member><member><name>permalink</name><value><string>/x/MYEM</string></value></member><member><name>postid</name><value><string>819505</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-25T16:43:24.513Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="fa07b9a4-3d0a-46ad-97d0-57725c1b59ba"><ac:plain-text-body><![CDATA[```
+brew install tree
+tree -L 3
+```]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p class="auto-cursor-target"><br /></p>]]></string></value></member><member><name>title</name><value><string>tree命令并指定深度</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819516</string></value></member><member><name>permalink</name><value><string>/x/PIEM</string></value></member><member><name>postid</name><value><string>819516</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-20T18:42:29.641Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><a href="https://blog.csdn.net/q258523454/article/details/83899911">https://blog.csdn.net/q258523454/article/details/83899911</a></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="9d744859-337d-4b6a-b0d1-763e26d8c1ef"><ac:plain-text-body><![CDATA[```
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch src/main/resources/blog.properties" --prune-empty --tag-name-filter cat -- --all
+
+git push origin --force --all
+
+git push origin --force --tags
+```
+
+确保没有什么问题之后,强制解除对本地存储库中的所有对象的引用和垃圾收集
+
+```
+git for-each-ref --format='delete %(refname)' refs/original | git update-ref --stdin
+git reflog expire --expire=now --all
+git gc --prune=now
+```
+
+注意：为了避免以后又提交，可以把这个文件添加到.ignore中，忽略提交
+
+
+]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p class="auto-cursor-target"><br /></p>]]></string></value></member><member><name>title</name><value><string>git删除某个文件的历史提交记录</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819523</string></value></member><member><name>permalink</name><value><string>/x/Q4EM</string></value></member><member><name>postid</name><value><string>819523</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-25T02:38:55.241Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="c23bb2d7-256b-4a82-b8a5-6284a0d199b0"><ac:plain-text-body><![CDATA[最近在 openEuler 安装 dde ，发生了空间不足错误，需要扩容
+
+# 先在虚拟机外部增加磁盘容量
+
+```
+# 查看磁盘信息
+➜  ~ sudo fdisk -l
+[sudo] terwer 的密码：
+Disk /dev/sda：100 GiB，107374182400 字节，209715200 个扇区
+磁盘型号：VMware Virtual S
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+磁盘标签类型：dos
+磁盘标识符：0x8c6cf5c9
+
+设备       启动    起点     末尾     扇区 大小 Id 类型
+/dev/sda1  *       2048  2099199  2097152   1G 83 Linux
+/dev/sda2       2099200 16777215 14678016   7G 8e Linux LVM
+
+
+Disk /dev/mapper/openeuler-root：6.2 GiB，6652166144 字节，12992512 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/mapper/openeuler-swap：820 MiB，859832320 字节，1679360 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+```
+
+# 对空白分区分区
+
+```
+➜  ~ sudo fdisk /dev/sda
+
+欢迎使用 fdisk (util-linux 2.35.2)。
+更改将停留在内存中，直到您决定将更改写入磁盘。
+使用写入命令前请三思。
+
+
+命令(输入 m 获取帮助)：m
+```
+
+分区操作
+
+```
+命令(输入 m 获取帮助)：F
+未分区的空间 /dev/sda：92 GiB，98784247808 个字节，192937984 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+
+    起点      末尾      扇区 大小
+16777216 209715199 192937984  92G
+
+命令(输入 m 获取帮助)：n
+分区类型
+   p   主分区 (2 primary, 0 extended, 2 free)
+   e   扩展分区 (逻辑分区容器)
+选择 (默认 p)：p
+分区号 (3,4, 默认  3):
+第一个扇区 (16777216-209715199, 默认 16777216):
+最后一个扇区，+/-sectors 或 +size{K,M,G,T,P} (16777216-209715199, 默认 209715199):
+
+创建了一个新分区 3，类型为“Linux”，大小为 92 GiB。
+
+命令(输入 m 获取帮助)：w
+分区表已调整。
+正在同步磁盘。
+```
+
+查看最新分区情况
+
+```
+➜  ~ sudo fdisk -l
+Disk /dev/sda：100 GiB，107374182400 字节，209715200 个扇区
+磁盘型号：VMware Virtual S
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+磁盘标签类型：dos
+磁盘标识符：0x8c6cf5c9
+
+设备       启动     起点      末尾      扇区 大小 Id 类型
+/dev/sda1  *        2048   2099199   2097152   1G 83 Linux
+/dev/sda2        2099200  16777215  14678016   7G 8e Linux LVM
+/dev/sda3       16777216 209715199 192937984  92G 83 Linux
+
+
+Disk /dev/mapper/openeuler-root：6.2 GiB，6652166144 字节，12992512 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/mapper/openeuler-swap：820 MiB，859832320 字节，1679360 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+```
+
+# 看一下根目录
+
+```
+➜  ~ df -lh
+文件系统                    容量  已用  可用 已用% 挂载点
+devtmpfs                    1.7G     0  1.7G    0% /dev
+tmpfs                       1.7G     0  1.7G    0% /dev/shm
+tmpfs                       1.7G  9.1M  1.7G    1% /run
+tmpfs                       1.7G     0  1.7G    0% /sys/fs/cgroup
+/dev/mapper/openeuler-root  6.1G  5.3G  447M   93% /
+tmpfs                       1.7G   72K  1.7G    1% /tmp
+/dev/sda1                   976M  204M  705M   23% /boot
+vmhgfs-fuse                 1.4T  477G  919G   35% /mnt/hgfs
+tmpfs                       341M     0  341M    0% /run/user/1000
+```
+
+可以看到只上线 447M 了，急需扩容。
+
+# 开始扩容
+看一下根目录坐在的组
+
+```
+➜  ~ sudo lvs
+  LV   VG        Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  root openeuler -wi-ao----  <6.20g
+  swap openeuler -wi-ao---- 820.00m
+```
+
+扩展卷
+```
+➜  ~ sudo vgextend openeuler /dev/sda3
+  Physical volume "/dev/sda3" successfully created.
+  Volume group "openeuler" successfully extended
+```
+
+查看可分配空间
+
+```
+➜  ~ sudo vgs
+  VG        #PV #LV #SN Attr   VSize  VFree
+  openeuler   2   2   0 wz--n- 98.99g <92.00g
+```
+
+分配
+
+```
+➜  ~ sudo lvextend -L +90G /dev/mapper/openeuler-root
+  Size of logical volume openeuler/root changed from <6.20 GiB (1586 extents) to <96.20 GiB (24626 extents).
+  Logical volume openeuler/root successfully resized.
+```
+
+保存到磁盘
+
+```
+➜  ~ sudo resize2fs /dev/mapper/openeuler-root
+resize2fs 1.45.6 (20-Mar-2020)
+/dev/mapper/openeuler-root 上的文件系统已被挂载于 /；需要进行在线调整大小
+
+old_desc_blocks = 1, new_desc_blocks = 13
+/dev/mapper/openeuler-root 上的文件系统现在为 25217024 个块（每块 4k）。
+```
+
+# 查看扩容结果
+
+```
+➜  ~ df -lh
+文件系统                    容量  已用  可用 已用% 挂载点
+devtmpfs                    1.7G     0  1.7G    0% /dev
+tmpfs                       1.7G   12K  1.7G    1% /dev/shm
+tmpfs                       1.7G  9.2M  1.7G    1% /run
+tmpfs                       1.7G     0  1.7G    0% /sys/fs/cgroup
+/dev/mapper/openeuler-root   95G  5.3G   86G    6% /
+tmpfs                       1.7G   72K  1.7G    1% /tmp
+/dev/sda1                   976M  204M  705M   23% /boot
+vmhgfs-fuse                 1.4T  478G  918G   35% /mnt/hgfs
+tmpfs                       341M     0  341M    0% /run/user/1000
+```
+可以看到，根目录已经有86G可用了。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p><br /></p>]]></string></value></member><member><name>title</name><value><string>openEuler根目录扩容</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819528</string></value></member><member><name>permalink</name><value><string>/x/SIEM</string></value></member><member><name>postid</name><value><string>819528</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-24T14:26:42.143Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="da87fa68-12fe-446d-8be2-b9dd3d665b55"><ac:plain-text-body><![CDATA[# 查看网络状态
+
+```
+nmcli device status
+```
+
+联网
+
+```
+nmcli connection up id ens33
+```
+
+设置自动联网
+
+```
+cd  /etc/sysconfig/network-scripts
+sudo vim ifcfg-enp0s3
+```
+
+]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p class="auto-cursor-target"><br /></p><p class="auto-cursor-target"><br /></p>]]></string></value></member><member><name>title</name><value><string>解决 openEuler 默认不联网问题</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819535</string></value></member><member><name>permalink</name><value><string>/x/T4EM</string></value></member><member><name>postid</name><value><string>819535</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-25T02:41:14.775Z</string></value></member><member><name>description</name><value><string><![CDATA[<p><a href="https://docs.openeuler.org/zh/docs/20.03_LTS_SP1/docs/desktop/%E5%AE%89%E8%A3%85DDE.html">https://docs.openeuler.org/zh/docs/20.03_LTS_SP1/docs/desktop/%E5%AE%89%E8%A3%85DDE.html</a></p>]]></string></value></member><member><name>title</name><value><string>openEuler安装dde</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819540</string></value></member><member><name>permalink</name><value><string>/x/VIEM</string></value></member><member><name>postid</name><value><string>819540</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-25T16:56:02.225Z</string></value></member><member><name>description</name><value><string><![CDATA[<p><a href="https://segmentfault.com/a/1190000023064443">https://segmentfault.com/a/1190000023064443</a></p><p><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="79dca382-089b-4604-90d9-1d3b26c4f705"><ac:plain-text-body><![CDATA[```
+./mysqld --user=mysql --basedir=/opt/mysql-5.7.36 --datadir=/opt/mysql-5.7.36/data --initialize
+
+vim /opt/mysql-5.7.36/support-files/mysql.server
+
+cp /opt/mysql-5.7.36/support-files/mysql.server /etc/init.d/mysqld
+```
+
+vim /etc/my.cnf
+
+```
+[mysqld]
+basedir=/opt/mysql-5.7.36
+datadir=/opt/mysql-5.7.36/data
+
+pid-file  = /var/run/mysqld/mysqld.pid
+socket    = /var/run/mysqld/mysqld.sock
+tmpdir    = /tmp
+log_error = /var/log/mysql/error.log
+
+[client]
+socket    = /var/run/mysqld/mysqld.sock
+~  
+```
+                                       
+```
+sudo /etc/init.d/mysqld start
+sudo /etc/rc.d/init.d/mysqld status                                
+```
+
+# 更好的配置防火墙的方法（根据需求来定）
+
+要允许远程连接，请允许防火墙上的端口3306：
+```
+sudo firewall-cmd --add-service=mysql --permanent
+sudo firewall-cmd --reload
+```
+
+还可以限制来自相关网络的访问：
+
+```
+sudo firewall-cmd --permanent --add-rich-rule 'rule family="ipv4"
+service name="mysql" source address="10.1.1.0/24" accept'
+```]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p class="auto-cursor-target"><br /></p>]]></string></value></member><member><name>title</name><value><string>openEuler安装解压版mysql</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819544</string></value></member><member><name>permalink</name><value><string>/x/WIEM</string></value></member><member><name>postid</name><value><string>819544</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value><value><struct><member><name>dateCreated</name><value><string>2022-01-25T16:42:45.366Z</string></value></member><member><name>description</name><value><string><![CDATA[<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="markdown" ac:schema-version="1" ac:macro-id="c7fd2539-fe90-498a-9e04-e84408ff0234"><ac:plain-text-body><![CDATA[告知系统Oracle Jdk的位置
+```
+sudo update-alternatives --install "/usr/bin/java" "java" "/opt/jdk-11.0.12/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/opt/jdk-11.0.12/bin/javac" 1
+```
+
+设置Oracle Jdk默认
+
+```
+sudo update-alternatives --set java /opt/jdk-11.0.12/bin/java
+sudo update-alternatives --set javac /opt/jdk-11.0.12/bin/javac
+```
+
+查看java列表
+
+```
+sudo alternatives --config java
+```
+
+# 参考
+
+https://fedoraproject.org/wiki/JDK_on_Fedora]]]]><![CDATA[></ac:plain-text-body></ac:structured-macro><p class="auto-cursor-target"><br /></p>]]></string></value></member><member><name>title</name><value><string>Fedora修改默认JDK为Oracle JDK</string></value></member><member><name>categories</name><value><array><data/></array></value></member><member><name>enclosure</name><value><struct><member><name>length</name><value><int>0</int></value></member></struct></value></member><member><name>link</name><value><string>/spaces/SPC/pages/819549</string></value></member><member><name>permalink</name><value><string>/x/XYEM</string></value></member><member><name>postid</name><value><string>819549</string></value></member><member><name>source</name><value><struct/></value></member><member><name>mt_keywords</name><value><string/></value></member><member><name>wp_slug</name><value><string/></value></member></struct></value></data></array></value></param></params></methodResponse>

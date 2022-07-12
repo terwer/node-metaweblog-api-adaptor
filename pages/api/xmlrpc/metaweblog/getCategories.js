@@ -15,22 +15,23 @@ export default async function handleGetCategories(reqParams) {
     // ========================
     // confluence adaptor 开始
     // ========================
-    let cat = {
-        description: 'java',
-        htmlUrl: '',
-        rssUrl: '',
-        title: 'java',
-        categoryid: '1'
-    };
-    let cat2 = {
-        description: 'node',
-        htmlUrl: '',
-        rssUrl: '',
-        title: 'node',
-        categoryid: '2'
-    };
-    result.push(cat)
-    result.push(cat2)
+    // let cat = {
+    //     description: 'java',
+    //     htmlUrl: '',
+    //     rssUrl: '',
+    //     title: 'java',
+    //     categoryid: '1'
+    // };
+    // let cat2 = {
+    //     description: 'node',
+    //     htmlUrl: '',
+    //     rssUrl: '',
+    //     title: 'node',
+    //     categoryid: '2'
+    // };
+    // result.push(cat)
+    // result.push(cat2)
+    // confluence不支持分类，只支持标签
     // ========================
     // confluence adaptor 结束
     // ========================

@@ -130,12 +130,17 @@ export async function newPage(wikiPageTitle, wikiPage, labels) {
     const newPage = defineConfluencePage(wikiPageTitle, wikiPage, wikiSpace, labels, parentPageId)
     const path = "/content"
 
-    const [error, data] = await fetchAPI_POST(path, newPage)
-    return [error, data]
+    let [error, data] = await fetchAPI_POST(path, newPage)
+    if (data && data.indexOf("_") > -1) {
+        data = data.split("_")[0]
+    }
+    const errorResult = error
+    const dataResult = data
+    return [errorResult, dataResult]
 }
 
 export async function getPage(pageid) {
-    const path = "/content/" + pageid + "?expand=version,body.storage"
+    const path = "/content/" + pageid + "?expand=version,body.storage,metadata.labels"
     const [error, data] = await fetchAPI_GET(path)
     return [error, data]
 }
@@ -149,9 +154,11 @@ async function getPageDefault(pageid) {
 export async function editPage(postid, wikiPageTitle, wikiPage, labels) {
     // 1、准备数据
     const wikiSpace = CONF_API_CONSTANTS.DEFAULT_SPACE_KEY;
-    const parentPageId = CONF_API_CONSTANTS.DEFAULT_PARENT_PAGE_ID
+    // const parentPageId = CONF_API_CONSTANTS.DEFAULT_PARENT_PAGE_ID
 
-    let newPage = defineConfluencePage(wikiPageTitle, wikiPage, wikiSpace, labels, parentPageId)
+    // let newPage = defineConfluencePage(wikiPageTitle, wikiPage, wikiSpace, labels, parentPageId)
+    // 不修改父页面
+    let newPage = defineConfluencePage(wikiPageTitle, wikiPage, wikiSpace, labels)
 
     const idarr = postid.split("_")
     const pageid = idarr[0]
@@ -198,10 +205,12 @@ function defineConfluencePage(pageTitle, wikiEntryText, pageSpace, labels, paren
     newPage.title = pageTitle
 
     // "ancestors":[{"id":1277961}]
-    const parentPageArray = new Array()
-    const parentPage = {"id": parentPageId}
-    parentPageArray.push(parentPage)
-    newPage.ancestors = parentPageArray
+    if (parentPageId) {
+        const parentPageArray = new Array()
+        const parentPage = {"id": parentPageId}
+        parentPageArray.push(parentPage)
+        newPage.ancestors = parentPageArray
+    }
 
     // "space":{"key":"SPC"}
     const spaceObj = {"key": pageSpace}
@@ -231,19 +240,21 @@ function defineConfluencePage(pageTitle, wikiEntryText, pageSpace, labels, paren
     //            "name":"awesome_stuff"}
     //           ]
     // }
-    const newLabels = new Array()
-    for (let idx in labels) {
-        const item = labels[idx].string || labels[idx]
-        const newLabel = {
-            "prefix": "global",
-            "name": item
+    if (labels) {
+        const newLabels = new Array()
+        for (let idx in labels) {
+            const item = labels[idx].string || labels[idx]
+            const newLabel = {
+                "prefix": "global",
+                "name": item
+            }
+            newLabels.push(newLabel)
         }
-        newLabels.push(newLabel)
+        const labelsObj = {
+            "labels": newLabels
+        }
+        newPage.metadata = labelsObj
     }
-    const labelsObj = {
-        "labels": newLabels
-    }
-    newPage.metadata = labelsObj
 
     return newPage
 }

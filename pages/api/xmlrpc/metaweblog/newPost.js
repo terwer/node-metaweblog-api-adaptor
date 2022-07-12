@@ -23,6 +23,7 @@ export default async function handleNewPost(reqParams) {
     let title = ""
     let description = ""
     let categories = []
+    let tags = []
     for (let idx in postJson) {
         const item = postJson[idx]
         if (item.name == "title") {
@@ -34,12 +35,18 @@ export default async function handleNewPost(reqParams) {
             console.log("description=>", item.value)
         }
         if (item.name == "categories") {
-            categories = item.value.array.data.value
-            console.log("categories=>", item.value)
+            if(item.value.array.data.value){
+                categories = item.value.array.data.value
+            }
+        }
+        if (item.name == "mt_keywords") {
+            if (item.value.string) {
+                tags = item.value.string.split(",");
+            }
         }
     }
 
-    [error, result] = await newPage(title, description, categories)
+    [error, result] = await newPage(title, description, tags)
     // ========================
     // confluence adaptor 结束
     // ========================

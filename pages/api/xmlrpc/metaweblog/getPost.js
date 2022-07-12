@@ -19,6 +19,18 @@ export default async function handleGetPost(reqParams) {
         error = perror
     }
     if (presult) {
+
+        let mtk = "";
+        if (presult.metadata.labels.results) {
+            let lbl = []
+            const labelarr = presult.metadata.labels.results;
+            for (let idx in labelarr) {
+                const item = labelarr[idx]
+                lbl.push(item.label)
+            }
+            mtk = lbl.join(",")
+        }
+
         const content = {
             dateCreated: presult.version.when,
             description: presult.body.storage.value,
@@ -29,7 +41,7 @@ export default async function handleGetPost(reqParams) {
             permalink: presult._links.tinyui,
             postid: presult.id,
             source: {},
-            mt_keywords: '',
+            mt_keywords: mtk,
             wp_slug: ''
         }
 

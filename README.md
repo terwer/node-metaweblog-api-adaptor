@@ -4,6 +4,14 @@ This is a xmlrpc metaweblog api server based on [Next.js](https://nextjs.org/) p
 
 [/api/xmlrpc](https://xmlrpc.terwergreen.com/api/xmlrpc)
 
+## 最近更新
+
+1、修复标签无法发送问题
+
+2、修复文章ID问题，conf的返回值格式id_version，需要把ID返回给api
+
+3、更新文章时，父页面、标签改为可选，默认不更新父页面。
+
 ## Getting Started
 
 First, run the development server:
