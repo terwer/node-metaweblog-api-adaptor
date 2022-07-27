@@ -2,9 +2,23 @@ This is a xmlrpc metaweblog api server based on [Next.js](https://nextjs.org/) p
 
 ## Endpoint
 
-[/api/xmlrpc](https://xmlrpc.terwergreen.com/api/xmlrpc)
+[/api/xmlrpc](https://api.terwer.space/api/xmlrpc)
+
+[/api/translate?q=](https://api.terwer.space/api/translate?q=)
+
+[/api/jieba?q=](https://api.terwer.space/api/jieba?q=)
 
 ## 最近更新
+
+### 2022-07-27
+
+1、新增中文分词服务
+
+### 2022-07-24
+
+1、新增Google翻译服务
+
+### 2022-07-09
 
 1、修复标签无法发送问题
 
