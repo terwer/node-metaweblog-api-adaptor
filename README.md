@@ -6,6 +6,16 @@ This is a xmlrpc metaweblog api server based on [Next.js](https://nextjs.org/) p
 
 ## 最近更新
 
+### 2022-07-27
+
+1、新增中文分词服务
+
+### 2022-07-24
+
+1、新增Google翻译服务
+
+### 2022-07-09
+
 1、修复标签无法发送问题
 
 2、修复文章ID问题，conf的返回值格式id_version，需要把ID返回给api
