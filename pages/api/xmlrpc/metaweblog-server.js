@@ -27,6 +27,6 @@ export default async function handleResponse(reqMethodName, reqParams) {
             return await handleGetRecentPosts(reqParams)
             break;
         default:
-            break
+            break;
     }
 }
