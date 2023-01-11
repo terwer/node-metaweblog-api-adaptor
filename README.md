@@ -10,6 +10,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## 最近更新
 
+### 2023-01-11
+
+1、新增xmlrpc代理
+
 ### 2022-07-27
 
 1、新增中文分词服务
