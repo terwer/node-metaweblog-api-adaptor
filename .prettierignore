@@ -1,0 +1,7 @@
+# platform
+.vercel
+
+# Ignore artifacts:
+node_modules
+
+pnpm-lock.yaml

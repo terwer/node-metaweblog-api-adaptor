@@ -1,30 +1,4 @@
-This is a xmlrpc metaweblog api server based on [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Endpoint
-
-[/api/xmlrpc](https://api.terwer.space/api/xmlrpc)
-
-[/api/translate?q=](https://api.terwer.space/api/translate?q=)
-
-[/api/jieba?q=](https://api.terwer.space/api/jieba?q=)
-
-## 最近更新
-
-### 2022-07-27
-
-1、新增中文分词服务
-
-### 2022-07-24
-
-1、新增Google翻译服务
-
-### 2022-07-09
-
-1、修复标签无法发送问题
-
-2、修复文章ID问题，conf的返回值格式id_version，需要把ID返回给api
-
-3、更新文章时，父页面、标签改为可选，默认不更新父页面。
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -38,11 +12,13 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.jsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 

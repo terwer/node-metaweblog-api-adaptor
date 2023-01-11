@@ -26,14 +26,15 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env*.local
 
 # vercel
 .vercel
 
-# yarn
-yarn.lock
-/.idea
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+next.config.js
+
+# JetBrains
+.idea
