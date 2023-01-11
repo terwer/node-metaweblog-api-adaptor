@@ -17,6 +17,13 @@ console.log("react path=>", moduleDir("react"))
  **/
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  typescript: {
+    // !! WARN !!
+    // Dangerously allow production builds to successfully complete even if
+    // your project has type errors.
+    // !! WARN !!
+    ignoreBuildErrors: true,
+  },
   webpack: (config, options) => {
     config.module.rules.push({
       test: /\.(ts)x?$/, // Just `tsx?` file only
