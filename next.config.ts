@@ -13,7 +13,7 @@ console.log("react path=>", moduleDir("react"))
 
 /**
  * @type {import('next').NextConfig}
- * @see https://nextjs.org/docs/api-reference/next.config.js/
+ * @see https://nextjs.org/docs/api-reference/next.config.js/introduction
  **/
 const nextConfig: NextConfig = {
   reactStrictMode: true,

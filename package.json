@@ -12,7 +12,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "next": "13.1.1",
+    "nodejieba": "^2.6.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"

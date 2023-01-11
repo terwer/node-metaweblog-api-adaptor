@@ -1,5 +1,23 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Endpoint
+
+[/api/xmlrpc](https://api.terwer.space/api/xmlrpc)
+
+[/api/translate?q=](https://api.terwer.space/api/translate?q=)
+
+[/api/jieba?q=](https://api.terwer.space/api/jieba?q=)
+
+## 最近更新
+
+### 2022-07-27
+
+1、新增中文分词服务
+
+### 2022-07-24
+
+1、新增Google翻译服务
+
 ## Getting Started
 
 First, run the development server:
