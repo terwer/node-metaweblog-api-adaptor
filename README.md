@@ -2,7 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Endpoint
 
-[/api/xmlrpc](https://api.terwer.space/api/xmlrpc)
+[/api/middleware](https://api.terwer.space/api/middleware)
+
+  - [/api/middleware/xmlrpc](https://api.terwer.space/api/middleware/xmlrpc)
+
+  - [/api/middleware/fetch](https://api.terwer.space/api/middleware/fetch)
 
 [/api/translate?q=](https://api.terwer.space/api/translate?q=)
 
@@ -13,6 +17,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ### 2023-01-11
 
 1、新增xmlrpc代理
+2、新增fetch代理
 
 ### 2022-07-27
 

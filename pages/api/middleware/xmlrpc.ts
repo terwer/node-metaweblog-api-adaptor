@@ -1,5 +1,5 @@
 import Cors from "cors"
-import initMiddleware from "../../utils/cors/init-middleware"
+import initMiddleware from "../../../utils/cors/init-middleware"
 import { SimpleXmlRpcClient } from "simple-xmlrpc"
 import { NextApiRequest, NextApiResponse } from "next"
 
@@ -19,14 +19,12 @@ export default async function handler(
   // Run cors
   await cors(req, res)
 
-  let result
-
-  const headers = req.headers
-  console.log(headers)
+  // const headers = req.headers
+  // console.log(headers)
   const body = req.body
 
   // 获取代理参数
-  console.log("body=>", body)
+  // console.log("body=>", body)
 
   // =====================================
   // =====================================
