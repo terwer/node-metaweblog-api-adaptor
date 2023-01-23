@@ -32,7 +32,8 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
 
 # 下载项目
 RUN cd /home && \
-    git clone --depth=1 "${gitUrl}"  metaweblog-api
+    git clone --depth=1 "${gitUrl}"  metaweblog-api && \
+    cd metaweblog-api && chmod +x entrypoint.sh
 
 # 编译项目
 RUN cd /home/metaweblog-api && \
