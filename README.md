@@ -48,6 +48,29 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Docker
+
+docker:
+
+```bash
+docker run -itd --name=metaweblog-api -p 6333:3000 -e TZ=Asia/Shanghai --restart=unless-stopped nn200433/metaweblog-api:latest
+```
+
+docker-compose:
+
+```yaml
+version: '3'
+services:
+  metaweblog-api:
+    image: nn200433/metaweblog-api:latest
+    container_name: metaweblog-api
+    restart: unless-stopped
+    ports:
+      - 6333:3000
+    environment: 
+      - TZ=Asia/Shanghai
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
