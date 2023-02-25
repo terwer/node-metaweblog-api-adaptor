@@ -35,10 +35,9 @@ export default async function handler(
 
   let err
   try {
-    // console.log("xmlrpcCORSParams.reqMethod=>")
-    // console.log(xmlrpcCORSParams.reqMethod)
-    // console.log("xmlrpcCORSParams.reqParams=>")
-    // console.log(xmlrpcCORSParams.reqParams)
+    // console.log("xmlrpcApiUrl=>", xmlrpcApiUrl)
+    // console.log("xmlrpcCORSParams.reqMethod=>", xmlrpcCORSParams.reqMethod)
+    // console.log("xmlrpcCORSParams.reqParams=>", xmlrpcCORSParams.reqParams)
 
     const client = new SimpleXmlRpcClient(xmlrpcApiUrl)
 
