@@ -9,7 +9,9 @@
     "build": "pnpm prebuild && next build",
     "build:config": "esbuild next.config.ts --bundle --outfile=next.config.js --platform=node --external:pnpapi --target=es2020 --minify",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -27,6 +29,7 @@
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
+    "@vitest/coverage-c8": "^0.29.1",
     "esbuild": "^0.16.16",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.1",
