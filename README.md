@@ -50,13 +50,13 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Docker
 
-docker:
+### docker
 
 ```bash
 docker run -itd --name=metaweblog-api -p 6333:3000 -e TZ=Asia/Shanghai --restart=unless-stopped nn200433/metaweblog-api:latest
 ```
 
-docker-compose:
+### docker-compose
 
 ```yaml
 version: '3'
@@ -69,6 +69,62 @@ services:
       - 6333:3000
     environment: 
       - TZ=Asia/Shanghai
+```
+
+## Nginx
+
+### Installation
+
+The nginx docker installation can be done using:
+
+1. [nginxWebUI](https://www.nginxwebui.cn/product.html)
+2. [Nginx Proxy Manager](https://nginxproxymanager.com/guide/#quick-setup)
+
+### Configuration
+
+```nginx
+server {
+    # modify
+    server_name <your domain>;
+    
+    listen 443 ssl http2;
+    
+    # modify
+    ssl_certificate <your ssl pem file path>;
+    ssl_certificate_key <your ssl key file path>;
+    
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;
+    listen 80;
+    if ($scheme = http) {
+      return 301 https://$host:443$request_uri;
+    }
+
+    underscores_in_headers on;
+
+    # blog
+    location / {
+      proxy_pass http://127.0.0.1:8080;
+      proxy_set_header Host $host;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header X-Forwarded-Host $http_host;
+      proxy_set_header X-Forwarded-Port $server_port;
+      proxy_set_header X-Forwarded-Proto $scheme;
+      proxy_redirect http:// https://;
+    }
+
+    # metaweblog-api
+    location /api {
+      proxy_pass http://127.0.0.1:6333;
+      proxy_set_header Host $host;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header X-Forwarded-Host $http_host;
+      proxy_set_header X-Forwarded-Port $server_port;
+      proxy_set_header X-Forwarded-Proto $scheme;
+      proxy_redirect http:// https://;
+    }
+}
 ```
 
 ## Learn More
