@@ -5,6 +5,6 @@ services:
     container_name: metaweblog-api
     restart: unless-stopped
     ports:
-      - 6333:3000
+      - 9000:3000
     environment: 
       - TZ=Asia/Shanghai
