@@ -8,11 +8,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
   - [/api/middleware/fetch](https://api.terwer.space/api/middleware/fetch)
 
+  - [/api/middleware/image](https://api.terwer.space/api/middleware/image)
+
 [/api/translate?q=](https://api.terwer.space/api/translate?q=)
 
 [/api/jieba?q=](https://api.terwer.space/api/jieba?q=)
 
 ## 最近更新
+
+### 2023-08-14
+
+1、新增image代理
 
 ### 2023-01-11
 

@@ -19,9 +19,9 @@ export default async function handler(
   await cors(req, res)
 
   // const headers = req.headers;
-  // logUtil.logInfo(headers)
+  // console.log(headers)
   const body = req.body
-  // logUtil.logInfo(body)
+  // console.log(body)
 
   // 获取代理参数
   // console.log("body.fetchParams.apiUrl=>")
