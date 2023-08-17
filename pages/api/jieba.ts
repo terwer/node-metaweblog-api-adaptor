@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-import nodejieba from "nodejieba"
+import jieba from "@node-rs/jieba"
 import Cors from "cors"
 import initMiddleware from "../../utils/cors/init-middleware"
 import { NextApiRequest, NextApiResponse } from "next"
@@ -33,7 +33,7 @@ export default async function handler(
     return
   }
 
-  const result = nodejieba.cut(q)
+  const result = jieba.cut(q)
   json = { result: result }
 
   // Rest of the API logic

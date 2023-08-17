@@ -36,6 +36,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+environment:
+
+```
+node = 16.20.2
+```
+
 First, run the development server:
 
 ```bash

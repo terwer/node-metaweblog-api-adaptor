@@ -18,9 +18,10 @@ export default async function handler(
   // Run cors
   await cors(req, res)
 
+  // 参考《谷歌翻译不能用的解决方案》：https://hcfy.app/blog/2022/09/28/ggg
   const q = req.query.q
   const v = await fetch(
-    "https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=auto&tl=en-US&q=" +
+    "https://translate.amz.wang/translate_a/t?client=dict-chrome-ex&sl=auto&tl=en-US&q=" +
       q
   )
   let json = await v.json()
