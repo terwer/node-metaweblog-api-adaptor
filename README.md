@@ -8,13 +8,48 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
   - [/api/middleware/fetch](https://api.terwer.space/api/middleware/fetch)
 
+```bash
+curl --location 'http://localhost:3000/api/middleware/fetch' \
+--header 'Content-Type: application/json' \
+--data '{
+    "fetchParams": {
+        "apiUrl": "http://127.0.0.1:6806/api/system/version",
+        "fetchOptions": {
+            "method": "POST"
+        }
+    }
+}'
+```
+
+```json
+{
+    "headers": {
+        "status": 200,
+        "statusText": "OK"
+    },
+    "body": {
+        "code": 0,
+        "msg": "",
+        "data": "2.10.14"
+    }
+}
+```
+
   - [/api/middleware/image](https://api.terwer.space/api/middleware/image)
 
-[/api/translate?q=](https://api.terwer.space/api/translate?q=)
+[/api/translate?q=测试](https://api.terwer.space/api/translate?q=测试)
 
-[/api/jieba?q=](https://api.terwer.space/api/jieba?q=)
+[/api/jieba?q=这是测试文字](https://api.terwer.space/api/jieba?q=这是测试文字)
 
 ## 最近更新
+
+### 2023-11-12
+
+1、jieba 更换为 node-rs
+
+2、docker 更换为国内镜像。
+
+3、新增调用 `curl` 调用实例
 
 ### 2023-08-14
 
