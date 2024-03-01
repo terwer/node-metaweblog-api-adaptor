@@ -59,14 +59,22 @@ export default async function handler(
   fetch(fetchCORSApiUrl, fetchCORSOptions)
     .then((response) => {
       try {
+        const myHeaders = response.headers
+        const setCookie = myHeaders.get("Set-Cookie")
+        const corsHeaders = {
+          "Set-Cookie": setCookie,
+        }
+        console.log("corsHeaders =>", corsHeaders)
+
         response.text().then((resText) => {
           // console.log("请求完成，准备返回真实结果")
-          let resJson = {}
+          let resJson = {} as any
           try {
             resJson = JSON.parse(resText)
           } catch (e) {
             console.error(e)
           }
+          resJson["cors-received-headers"] = JSON.stringify(corsHeaders)
           // console.log(resJson)
 
           const finalRes = {
