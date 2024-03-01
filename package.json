@@ -23,7 +23,6 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "@next/font": "^14.1.0",
     "@testing-library/react": "^14.2.1",
     "@types/node": "^18.19.21",
     "@types/react": "^18.2.61",
