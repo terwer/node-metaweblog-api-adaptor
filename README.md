@@ -43,6 +43,10 @@ curl --location 'http://localhost:3000/api/middleware/fetch' \
 
 ## 最近更新
 
+### 2024-03-01
+
+1、返回结果支持 cookie
+
 ### 2023-11-12
 
 1、jieba 更换为 node-rs
