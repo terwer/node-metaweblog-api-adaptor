@@ -1,6 +1,7 @@
 import Cors from "cors"
 import initMiddleware from "../../../utils/cors/init-middleware"
 import { NextApiRequest, NextApiResponse } from "next"
+import cookie from "cookie-parse"
 
 // Initialize the cors middleware
 const cors = initMiddleware(
@@ -8,12 +9,12 @@ const cors = initMiddleware(
   Cors({
     // Only allow requests with GET, POST and OPTIONS
     methods: ["GET", "POST", "OPTIONS"],
-  })
+  }),
 )
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse
+  res: NextApiResponse,
 ) {
   // Run cors
   await cors(req, res)
@@ -51,20 +52,38 @@ export default async function handler(
   }
 
   let err
-  console.log("fetchCORS.apiUrl=>")
-  console.log(fetchCORSApiUrl)
-  console.log("fetchCORS.fetchOptions=>")
-  console.log(fetchCORSOptions)
+  console.log("fetchCORS.apiUrl=>", fetchCORSApiUrl)
+  console.log("fetchCORS.fetchOptions=>", fetchCORSOptions)
 
   fetch(fetchCORSApiUrl, fetchCORSOptions)
     .then((response) => {
       try {
+        const cookieArray = []
+        const cookieObjectArray = []
         const myHeaders = response.headers
-        const setCookie = myHeaders.get("Set-Cookie")
-        const corsHeaders = {
-          "Set-Cookie": setCookie,
+        for (const pair of myHeaders.entries()) {
+          const key = pair[0]
+          const value = pair[1]
+          if (key.toLowerCase() === "set-cookie") {
+            cookieArray.push(value)
+
+            let cookies = {}
+            try {
+              cookies = cookie.parse(value)
+              cookieObjectArray.push(cookies)
+            } catch (e) {
+              console.error("Failed to parse cookie =>" + e)
+            }
+          } else {
+            // console.log(`Header ${key} is not allowed to expose`)
+          }
         }
-        console.log("corsHeaders =>", corsHeaders)
+
+        const corsHeaders = {
+          "Set-Cookie-Array": cookieArray,
+          "Set-Cookie-Object-Array": cookieObjectArray,
+        }
+        // console.log("corsHeaders =>", corsHeaders)
 
         response.text().then((resText) => {
           // console.log("请求完成，准备返回真实结果")
@@ -84,20 +103,21 @@ export default async function handler(
             },
             body: resJson,
           }
-          console.log(finalRes)
-          console.log("请求处理已成功")
+          // console.log(finalRes)
+          console.log(`====== Success for ${fetchCORSApiUrl} =======`)
+          console.log(`==================================================`)
           writeStatusData(res, finalRes, response.status)
         })
       } catch (e) {
         err = e
         writeStatusError(res, err, response.status)
-        console.log("请求处理异常")
+        // console.log("请求处理异常")
         console.error(e)
       }
     })
     .catch((reason) => {
       // console.log("methodPromise catch=>")
-      console.log("请求处理失败")
+      // console.log("请求处理失败")
       console.error("fetch middleware error=>", reason)
       writeError(res, reason)
     })
