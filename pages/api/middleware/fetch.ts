@@ -1,7 +1,6 @@
 import Cors from "cors"
 import initMiddleware from "../../../utils/cors/init-middleware"
 import { NextApiRequest, NextApiResponse } from "next"
-import cookie from "cookie-parse"
 
 // Initialize the cors middleware
 const cors = initMiddleware(
@@ -59,21 +58,12 @@ export default async function handler(
     .then((response) => {
       try {
         const cookieArray = []
-        const cookieObjectArray = []
         const myHeaders = response.headers
         for (const pair of myHeaders.entries()) {
           const key = pair[0]
           const value = pair[1]
           if (key.toLowerCase() === "set-cookie") {
             cookieArray.push(value)
-
-            let cookies = {}
-            try {
-              cookies = cookie.parse(value)
-              cookieObjectArray.push(cookies)
-            } catch (e) {
-              console.error("Failed to parse cookie =>" + e)
-            }
           } else {
             // console.log(`Header ${key} is not allowed to expose`)
           }
@@ -81,7 +71,6 @@ export default async function handler(
 
         const corsHeaders = {
           "Set-Cookie-Array": cookieArray,
-          "Set-Cookie-Object-Array": cookieObjectArray,
         }
         // console.log("corsHeaders =>", corsHeaders)
 

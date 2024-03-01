@@ -47,7 +47,7 @@ curl --location 'http://localhost:3000/api/middleware/fetch' \
 
 1、返回结果支持 cookie。后续所有 cors 对应的 header 统一放在 body 的 "cors-received-headers" 字段
 
-2、直接cookie解析
+2、支持 cookie 解析
 
 3、升级 next.js 到 v14
 
