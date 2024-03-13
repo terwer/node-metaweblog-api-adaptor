@@ -43,6 +43,10 @@ curl --location 'http://localhost:3000/api/middleware/fetch' \
 
 ## 最近更新
 
+### 2024-03-13
+
+1、fetch 代理新增 xml-body 支持
+
 ### 2024-03-01
 
 1、返回结果支持 cookie。后续所有 cors 对应的 header 统一放在 body 的 "cors-received-headers" 字段

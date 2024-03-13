@@ -57,32 +57,40 @@ export default async function handler(
   fetch(fetchCORSApiUrl, fetchCORSOptions)
     .then((response) => {
       try {
-        const cookieArray = []
+        const corsRespHeaders = {} as any
+        const corsCookieArray = []
         const myHeaders = response.headers
         for (const pair of myHeaders.entries()) {
           const key = pair[0]
           const value = pair[1]
           if (key.toLowerCase() === "set-cookie") {
-            cookieArray.push(value)
+            // cookies temp save to corsCookieArray
+            corsCookieArray.push(value)
           } else {
-            // console.log(`Header ${key} is not allowed to expose`)
+            // add headers
+            corsRespHeaders[key] = value
           }
         }
 
-        const corsHeaders = {
-          "Set-Cookie-Array": cookieArray,
+        // add cors-received-headers
+        corsRespHeaders["cors-received-headers"] = {
+          "Set-Cookie-Array": corsCookieArray,
         }
-        // console.log("corsHeaders =>", corsHeaders)
 
         response.text().then((resText) => {
           // console.log("请求完成，准备返回真实结果")
           let resJson = {} as any
-          try {
-            resJson = JSON.parse(resText)
-          } catch (e) {
-            console.error(e)
+          if (fetchCORSOptions.headers["Content-Type"] === "text/xml") {
+            resJson = { "xml-body": resText }
+          } else {
+            try {
+              resJson = JSON.parse(resText)
+            } catch (e) {
+              console.error(e)
+            }
           }
-          resJson["cors-received-headers"] = JSON.stringify(corsHeaders)
+
+          resJson["cors-received-headers"] = JSON.stringify(corsRespHeaders)
           // console.log(resJson)
 
           const finalRes = {
