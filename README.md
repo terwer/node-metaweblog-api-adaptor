@@ -42,9 +42,8 @@ curl --location 'http://localhost:3000/api/middleware/fetch' \
 ```bash
 curl --location 'http://localhost:3000/api/prismjs' \
 --header 'Content-Type: application/json' \
---header 'Cookie: _Secure-next-auth.session-data=MTcwMjAwMjA5OXx0R3l0M3B5WXRfSmJzeUhIQVZNZmNJNHlDNTJXNmZUWldLNU82ZjRhWkRVNVE1MjhibEVjbWM2ZGNOSlVnREZkeGpRTTFOZmJBV0V3RjJIcXdrYTBiQlNhVkZoZ056bll8ZW4AGUlPegBKgDOSFqQls0MKjx-dUWDsCgoBNYlqnmM=' \
 --data '{
-    "html": "<pre class=\"code-block\"data-language=\"java\"><code class=\"hljs\">public static void main(String[]args){System.out.println(&quot;Hello,World!&quot;)}</code></pre>"
+    "html": "<h1>这是一篇测试文章请忽略</h1>\n<p>这是测试的文字，如有打扰请谅解。稍后测试完毕会删除</p>\n<p>‍</p>\n<p>‍</p>\n<p>测试代码块</p>\n<p>‍</p>\n<pre><code class=\"language-java\">public static void main();}\n</code></pre>\n"
 }'
 ```
 

@@ -6,6 +6,7 @@ import * as cheerio from "cheerio"
 import Prism from "prismjs"
 // @ts-ignore
 import loadLanguages from "prismjs/components/index"
+import { decode } from "html-entities"
 
 // Initialize the cors middleware
 const cors = initMiddleware(
@@ -27,19 +28,24 @@ export default async function handler(
 
   const body = req.body
   let html = body.html
-  // Prism.highlight
+
   // properly parse and format all hightlighted
   // code blocks on the server
   const $ = cheerio.load(html)
-  const $codes = $("pre.code-block[data-language] code")
+  const $codes = $("code[class^=language]")
   if ($codes.length > 0)
-    $codes.each((index, elem) => {
-      const lang = $(elem).parent().attr("data-language") ?? "plaintext"
-      const code = $(elem).html()
+    $codes.each(function () {
+      const $code = $(this)
 
-      $(elem).html(Prism.highlight(code, Prism.languages[lang], code))
-      $(elem).addClass(`prism language-${lang}`)
-      html = $("body").html() ?? "<p>代码块解析错误</p>"
+      const lang = $code.attr("class")?.replace("language-", "") ?? "text"
+      const code = decode($code.html())
+      // default loaded languages with prisma, skip to decrease build times
+      if (!["clike", "markup"].includes(lang)) {
+        loadLanguages([lang])
+      }
+      $code.html(Prism.highlight(code, Prism.languages[lang], code))
+      $code.addClass(`prism language-${lang}`)
+      html = $.html()
     })
 
   json = {
