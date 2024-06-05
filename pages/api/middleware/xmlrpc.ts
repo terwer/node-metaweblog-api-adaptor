@@ -9,12 +9,12 @@ const cors = initMiddleware(
   Cors({
     // Only allow requests with GET, POST and OPTIONS
     methods: ["GET", "POST", "OPTIONS"],
-  })
+  }),
 )
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse
+  res: NextApiResponse,
 ) {
   // Run cors
   await cors(req, res)
@@ -39,11 +39,12 @@ export default async function handler(
     // console.log("xmlrpcCORSParams.reqMethod=>", xmlrpcCORSParams.reqMethod)
     // console.log("xmlrpcCORSParams.reqParams=>", xmlrpcCORSParams.reqParams)
 
-    const client = new SimpleXmlRpcClient(xmlrpcApiUrl)
+    const appInstance = {}
+    const client = new SimpleXmlRpcClient(appInstance, xmlrpcApiUrl)
 
     const methodPromise = client.methodCall(
       xmlrpcCORSParams.reqMethod,
-      xmlrpcCORSParams.reqParams
+      xmlrpcCORSParams.reqParams,
     )
     methodPromise
       .then((resolve) => {
