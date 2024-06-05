@@ -15,9 +15,12 @@
   },
   "dependencies": {
     "@node-rs/jieba": "^1.10.0",
+    "cheerio": "1.0.0-rc.12",
     "cookie-parse": "^0.4.0",
     "cors": "^2.8.5",
+    "html-entities": "^2.5.2",
     "next": "^14.1.0",
+    "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "simple-xmlrpc": "^1.4.2",

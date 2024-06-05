@@ -37,11 +37,32 @@ curl --location 'http://localhost:3000/api/middleware/fetch' \
 
   - [/api/middleware/image](https://api.terwer.space/api/middleware/image)
 
+- [/api/prismjs](https://api.terwer.space/api/prismjs)
+
+```bash
+curl --location 'http://localhost:3000/api/prismjs' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: _Secure-next-auth.session-data=MTcwMjAwMjA5OXx0R3l0M3B5WXRfSmJzeUhIQVZNZmNJNHlDNTJXNmZUWldLNU82ZjRhWkRVNVE1MjhibEVjbWM2ZGNOSlVnREZkeGpRTTFOZmJBV0V3RjJIcXdrYTBiQlNhVkZoZ056bll8ZW4AGUlPegBKgDOSFqQls0MKjx-dUWDsCgoBNYlqnmM=' \
+--data '{
+    "html": "<pre class=\"code-block\"data-language=\"java\"><code class=\"hljs\">public static void main(String[]args){System.out.println(&quot;Hello,World!&quot;)}</code></pre>"
+}'
+```
+
+```json
+{
+    "html": "<pre class=\"code-block\" data-language=\"java\"><code class=\"hljs prism language-java\"><span class=\"token keyword\">public</span> <span class=\"token keyword\">static</span> <span class=\"token keyword\">void</span> <span class=\"token function\">main</span><span class=\"token punctuation\">(</span><span class=\"token class-name\">String</span><span class=\"token punctuation\">[</span><span class=\"token punctuation\">]</span>args<span class=\"token punctuation\">)</span><span class=\"token punctuation\">{</span><span class=\"token class-name\">System</span><span class=\"token punctuation\">.</span>out<span class=\"token punctuation\">.</span><span class=\"token function\">println</span><span class=\"token punctuation\">(</span><span class=\"token string\">\"Hello,World!\"</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">}</span></code></pre>"
+}
+```
+
 [/api/translate?q=测试](https://api.terwer.space/api/translate?q=测试)
 
 [/api/jieba?q=这是测试文字](https://api.terwer.space/api/jieba?q=这是测试文字)
 
 ## 最近更新
+
+### 2024-06-05
+
+1、新增 prismjs 服务，支持动态渲染高亮代码块为 html
 
 ### 2024-03-13
 
