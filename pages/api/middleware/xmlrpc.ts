@@ -2,6 +2,8 @@ import Cors from "cors"
 import initMiddleware from "../../../utils/cors/init-middleware"
 import { SimpleXmlRpcClient } from "simple-xmlrpc"
 import { NextApiRequest, NextApiResponse } from "next"
+import { AppInstance } from "../../../utils/AppInstance"
+import { Base64 } from "js-base64"
 
 // Initialize the cors middleware
 const cors = initMiddleware(
@@ -39,12 +41,31 @@ export default async function handler(
     // console.log("xmlrpcCORSParams.reqMethod=>", xmlrpcCORSParams.reqMethod)
     // console.log("xmlrpcCORSParams.reqParams=>", xmlrpcCORSParams.reqParams)
 
-    const appInstance = {}
+    const appInstance = new AppInstance()
     const client = new SimpleXmlRpcClient(appInstance, xmlrpcApiUrl)
 
+    let reqParams = xmlrpcCORSParams.reqParams
+    // 专属处理文件上传
+    if (
+      xmlrpcCORSParams.isNewMediaObjectRequest === "true" &&
+      reqParams.length === 4
+    ) {
+      const file = reqParams[3]
+      const bits = Buffer.from(file, "base64")
+      const name = body.name ?? `random-${Date.now()}.png`
+      const type = body.type ?? "image/jpeg"
+      // 设置文件的元数据
+      const metadata = {
+        name: name,
+        type: type,
+        bits: bits,
+        overwrite: true,
+      }
+      reqParams = [reqParams[0], reqParams[1], reqParams[2], metadata]
+    }
     const methodPromise = client.methodCall(
       xmlrpcCORSParams.reqMethod,
-      xmlrpcCORSParams.reqParams,
+      reqParams,
     )
     methodPromise
       .then((resolve) => {
