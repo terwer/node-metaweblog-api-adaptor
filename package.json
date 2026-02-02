@@ -8,7 +8,7 @@
     "prebuild": "yarn build:config",
     "build": "pnpm prebuild && next build",
     "build:config": "esbuild next.config.ts --bundle --outfile=next.config.js --platform=node --external:pnpapi --target=es2020 --minify",
-    "start": "next start",
+    "start": "PORT=3002 next start",
     "lint": "next lint",
     "test": "vitest",
     "coverage": "vitest run --coverage"
